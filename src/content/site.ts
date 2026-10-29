@@ -5,7 +5,8 @@ export const siteContent = {
   title: "Thiago Dutra | Software Engineer",
   description:
     "Thiago Dutra — Software Engineer focused on mobile and web development.",
-  logo: { text: "TD", suffix: ".dev" },
+  copyright: "© Thiago Dutra 2026",
+  madeWith: "Feito com Next.js",
 };
 
 export const navItems: NavItem[] = [
