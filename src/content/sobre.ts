@@ -34,7 +34,7 @@ export const aboutContent: AboutContent = {
   educationLabel: "EDUCAÇÃO",
   education: [
     {
-      title: "Ensino Médio Técnico — Análise de Sistemas",
+      title: "Ensino Médio Técnico — Desenvolvimento de Sistemas",
       meta: [
         "Colégio Estadual Maria Dalila · Santo Antônio da Platina, PR · 2023–2025",
       ],
