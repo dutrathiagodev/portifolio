@@ -7,10 +7,6 @@ export function Hero() {
 
   return (
     <section className="hero">
-      <p className="hero-word" aria-hidden="true">
-        {word}
-      </p>
-
       <div className="hero-photo">
         <Image
           src={photo.src}
@@ -20,6 +16,10 @@ export function Hero() {
           priority
         />
       </div>
+
+      <p className="hero-word" aria-hidden="true">
+        {word}
+      </p>
 
       <p className="hero-word-outline" aria-hidden="true">
         {word}
