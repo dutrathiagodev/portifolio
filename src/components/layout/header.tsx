@@ -1,23 +1,34 @@
-import { Container } from "@/components/ui/container";
-import { siteContent } from "@/content/site";
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { navItems, siteContent } from "@/content/site";
+import { cn } from "@/lib/utils";
 
 export function Header() {
+  const pathname = usePathname();
+
   return (
-    <header className="border-b border-foreground/10">
-      <Container className="flex h-16 items-center justify-between">
-        <span className="font-semibold">{siteContent.name}</span>
-        <nav aria-label="Principal">
-          <ul className="flex gap-6 text-sm">
-            {siteContent.nav.map((item) => (
-              <li key={item.href}>
-                <a href={item.href} className="hover:text-brand">
-                  {item.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </Container>
+    <header className="header">
+      <nav className="navbar" aria-label="Principal">
+        <Link href="/" className="logo">
+          {siteContent.logo.text}
+          <span>{siteContent.logo.suffix}</span>
+        </Link>
+
+        <div className="nav-links">
+          {navItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={cn(pathname === item.href && "active")}
+              aria-current={pathname === item.href ? "page" : undefined}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </div>
+      </nav>
     </header>
   );
 }
