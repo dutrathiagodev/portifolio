@@ -63,7 +63,7 @@ export function ProjectRow({
         ))}
       </ul>
 
-      <div>
+      <div className="row-stage">
         <span className={cn("row-status", tone)}>{label}</span>
         {stages > 0 && (
           <div className="stages-bar" aria-hidden="true">

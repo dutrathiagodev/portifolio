@@ -1323,7 +1323,7 @@ a.row:hover .row-go {
   }
 
   .row-layers,
-  .row-status {
+  .row-stage {
     grid-column: 2;
   }
 
