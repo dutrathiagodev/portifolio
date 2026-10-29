@@ -35,6 +35,10 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "Futi FC",
       tone: "futfc",
       status: "production",
+      layers: [
+        { kind: "Mobile", status: "production" },
+        { kind: "Web", status: "production" },
+      ],
       tags: ["Flutter", "Tech Lead", "Painel web"],
     },
     {
