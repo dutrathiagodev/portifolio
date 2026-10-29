@@ -82,5 +82,15 @@ export const projectsContent: ProjectsContent = {
       tone: "detetive",
       tags: ["Next.js", "TypeScript", "localStorage"],
     },
+    {
+      name: "OneTick",
+      href: "https://github.com/dutrathiagodev/onetick",
+      description:
+        "App de foco diário: uma única tarefa por dia, com sequência de dias, histórico e lembrete. Flutter com Firebase Auth e Firestore.",
+      image: "/images/onetick.png",
+      imageAlt: "OneTick",
+      tone: "onetick",
+      tags: ["Flutter", "Firebase", "Cubit"],
+    },
   ],
 };
