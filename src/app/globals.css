@@ -185,6 +185,34 @@ ul {
   }
 }
 
+/* ---------- papel quadriculado e bordas rasgadas ---------- */
+:root {
+  --torn-top: polygon(0.0% 10px, 2.5% 4px, 5.0% 12px, 7.5% 20px, 10.0% 1px, 12.5% 2px, 15.0% 17px, 17.5% 3px, 20.0% 11px, 22.5% 18px, 25.0% 1px, 27.5% 16px, 30.0% 6px, 32.5% 1px, 35.0% 2px, 37.5% 13px, 40.0% 13px, 42.5% 2px, 45.0% 7px, 47.5% 2px, 50.0% 17px, 52.5% 13px, 55.0% 1px, 57.5% 18px, 60.0% 3px, 62.5% 7px, 65.0% 20px, 67.5% 20px, 70.0% 18px, 72.5% 1px, 75.0% 18px, 77.5% 18px, 80.0% 12px, 82.5% 1px, 85.0% 7px, 87.5% 1px, 90.0% 17px, 92.5% 4px, 95.0% 9px, 97.5% 13px, 100.0% 4px, 100% 100%, 0% 100%);
+  --torn-bottom: polygon(0% 0%, 100% 0%, 100.0% calc(100% - 10px), 97.5% calc(100% - 15px), 95.0% calc(100% - 16px), 92.5% calc(100% - 9px), 90.0% calc(100% - 18px), 87.5% calc(100% - 2px), 85.0% calc(100% - 7px), 82.5% calc(100% - 22px), 80.0% calc(100% - 5px), 77.5% calc(100% - 7px), 75.0% calc(100% - 9px), 72.5% calc(100% - 11px), 70.0% calc(100% - 14px), 67.5% calc(100% - 18px), 65.0% calc(100% - 14px), 62.5% calc(100% - 10px), 60.0% calc(100% - 13px), 57.5% calc(100% - 17px), 55.0% calc(100% - 21px), 52.5% calc(100% - 15px), 50.0% calc(100% - 6px), 47.5% calc(100% - 19px), 45.0% calc(100% - 1px), 42.5% calc(100% - 18px), 40.0% calc(100% - 2px), 37.5% calc(100% - 22px), 35.0% calc(100% - 17px), 32.5% calc(100% - 3px), 30.0% calc(100% - 11px), 27.5% calc(100% - 6px), 25.0% calc(100% - 20px), 22.5% calc(100% - 18px), 20.0% calc(100% - 18px), 17.5% calc(100% - 3px), 15.0% calc(100% - 5px), 12.5% calc(100% - 21px), 10.0% calc(100% - 17px), 7.5% calc(100% - 9px), 5.0% calc(100% - 18px), 2.5% calc(100% - 3px), 0.0% calc(100% - 17px));
+  --torn-both: polygon(0.0% 10px, 2.5% 4px, 5.0% 12px, 7.5% 20px, 10.0% 1px, 12.5% 2px, 15.0% 17px, 17.5% 3px, 20.0% 11px, 22.5% 18px, 25.0% 1px, 27.5% 16px, 30.0% 6px, 32.5% 1px, 35.0% 2px, 37.5% 13px, 40.0% 13px, 42.5% 2px, 45.0% 7px, 47.5% 2px, 50.0% 17px, 52.5% 13px, 55.0% 1px, 57.5% 18px, 60.0% 3px, 62.5% 7px, 65.0% 20px, 67.5% 20px, 70.0% 18px, 72.5% 1px, 75.0% 18px, 77.5% 18px, 80.0% 12px, 82.5% 1px, 85.0% 7px, 87.5% 1px, 90.0% 17px, 92.5% 4px, 95.0% 9px, 97.5% 13px, 100.0% 4px, 100.0% calc(100% - 10px), 97.5% calc(100% - 15px), 95.0% calc(100% - 16px), 92.5% calc(100% - 9px), 90.0% calc(100% - 18px), 87.5% calc(100% - 2px), 85.0% calc(100% - 7px), 82.5% calc(100% - 22px), 80.0% calc(100% - 5px), 77.5% calc(100% - 7px), 75.0% calc(100% - 9px), 72.5% calc(100% - 11px), 70.0% calc(100% - 14px), 67.5% calc(100% - 18px), 65.0% calc(100% - 14px), 62.5% calc(100% - 10px), 60.0% calc(100% - 13px), 57.5% calc(100% - 17px), 55.0% calc(100% - 21px), 52.5% calc(100% - 15px), 50.0% calc(100% - 6px), 47.5% calc(100% - 19px), 45.0% calc(100% - 1px), 42.5% calc(100% - 18px), 40.0% calc(100% - 2px), 37.5% calc(100% - 22px), 35.0% calc(100% - 17px), 32.5% calc(100% - 3px), 30.0% calc(100% - 11px), 27.5% calc(100% - 6px), 25.0% calc(100% - 20px), 22.5% calc(100% - 18px), 20.0% calc(100% - 18px), 17.5% calc(100% - 3px), 15.0% calc(100% - 5px), 12.5% calc(100% - 21px), 10.0% calc(100% - 17px), 7.5% calc(100% - 9px), 5.0% calc(100% - 18px), 2.5% calc(100% - 3px), 0.0% calc(100% - 17px));
+}
+
+.paper {
+  background-color: #ecebe7;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+  color: #111;
+}
+
+.torn-top {
+  clip-path: var(--torn-top);
+}
+
+.torn-bottom {
+  clip-path: var(--torn-bottom);
+}
+
+.torn-both {
+  clip-path: var(--torn-both);
+}
+
 /* ---------- header e footer ---------- */
 .site-header {
   position: relative;
