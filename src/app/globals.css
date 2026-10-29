@@ -1371,11 +1371,11 @@ a.row:hover .row-go {
   }
 
   .hero {
-    --photo: 66vw;
+    --photo: 82vw;
   }
 
   .hero-band {
-    height: 360px;
+    height: 260px;
   }
 
   .hero-caps {
