@@ -4,9 +4,20 @@ export type Project = {
   name: string;
   href?: string;
   description: string;
-  image: string;
-  imageAlt: string;
-  tone: "mrnt" | "cantiere" | "futfc" | "olimp" | "weloz" | "elos";
+  image?: string;
+  imageAlt?: string;
+  initials?: string;
+  tone:
+    | "mrnt"
+    | "cantiere"
+    | "futfc"
+    | "olimp"
+    | "weloz"
+    | "elos"
+    | "faceaface"
+    | "detetive"
+    | "onetick"
+    | "fapbooks";
   tags: string[];
 };
 
