@@ -616,6 +616,65 @@ ul {
   text-decoration: underline;
 }
 
+.status-badge,
+.layer {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-badge::before,
+.layer::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.status-badge {
+  padding: 3px 10px;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+.status-production {
+  color: #3ecf8e;
+}
+
+.status-development {
+  color: #f5c84a;
+}
+
+.project-layers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 14px;
+}
+
+.layer {
+  font-size: 11px;
+  color: #8b8b8b;
+}
+
+.layer span {
+  color: var(--text-muted);
+}
+
+.layer.status-production::before {
+  background: #3ecf8e;
+}
+
+.layer.status-development::before {
+  background: #f5c84a;
+}
+
 .project-info p {
   color: #999999;
   font-size: 14px;
