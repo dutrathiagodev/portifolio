@@ -13,12 +13,16 @@ export function Projects() {
         {projects.map((project) => (
           <li key={project.name} className="project-card">
             <div className={`project-icon ${project.tone}`}>
-              <Image
-                src={project.image}
-                alt={project.imageAlt}
-                width={44}
-                height={44}
-              />
+              {project.image ? (
+                <Image
+                  src={project.image}
+                  alt={project.imageAlt ?? project.name}
+                  width={44}
+                  height={44}
+                />
+              ) : (
+                <span aria-hidden="true">{project.initials}</span>
+              )}
             </div>
 
             <div className="project-info">
