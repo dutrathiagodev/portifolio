@@ -19,7 +19,7 @@
 
 ## Sobre
 
-Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js, mantendo o mesmo conteúdo e o mesmo design.
+Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js e redesenhado, com hero de palavra gigante, pipeline de entrega animado e lista de projetos com status e camadas.
 
 ## Links
 
@@ -32,12 +32,13 @@ Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos,
 
 ## O que tem no site
 
-- **Home** com apresentação, botões de navegação e links para as redes
+- **Home** com hero, pipeline de entrega animado (Build, Teste, Deploy e Produção) e projetos em destaque
 - **Sobre**, com o que eu faço e a formação
 - **Experiência**, em linha do tempo
-- **Projetos**, em lista com tecnologias e links
-- **Skills**, agrupadas por área
+- **Projetos**, em lista com status (em produção ou em desenvolvimento), camadas (Mobile, Web, API e Banco) e a equipe RiseMov
+- **Skills**, agrupadas por área, incluindo IA no desenvolvimento (Claude Code e Codex)
 - **Contato**, com um formulário no estilo "mad-lib" que monta um e-mail pronto (`mailto:`), sem backend
+- Animações de entrada e ao rolar, com suporte a `prefers-reduced-motion`
 - Menu com destaque automático da página atual
 - Layout responsivo (desktop, tablet e celular)
 
@@ -50,11 +51,14 @@ Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos,
 | [OneTick](https://github.com/dutrathiagodev/onetick) | Um foco essencial por dia, com histórico e sequência | Flutter, Firebase, Cubit |
 | [FAP Books](https://github.com/dutrathiagodev/fap-books) | Gestão e empréstimo de livros da biblioteca da FAP | Next.js, Supabase, PostgreSQL |
 
+Outros projetos: MRNT, FutFC, Weloz, Elos e o Big-Z (em equipe, na [RiseMov](https://github.com/RiseMov)).
+
 ## Tecnologias
 
 - [Next.js 16](https://nextjs.org) (App Router) e [React 19](https://react.dev)
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind CSS 4](https://tailwindcss.com)
+- Fontes [Satoshi](https://www.fontshare.com/fonts/satoshi) (Fontshare), [Anton](https://fonts.google.com/specimen/Anton) e [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - ESLint
 - [Netlify](https://www.netlify.com) para o deploy
 
