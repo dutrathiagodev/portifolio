@@ -49,6 +49,10 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "Weloz",
       tone: "weloz",
       status: "development",
+      layers: [
+        { kind: "Mobile", status: "development" },
+        { kind: "Web", status: "development" },
+      ],
       tags: ["Flutter", "Mobile", "Painel web"],
     },
     {
