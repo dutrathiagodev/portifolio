@@ -63,6 +63,10 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "Elos",
       tone: "elos",
       status: "development",
+      layers: [
+        { kind: "Mobile", status: "development" },
+        { kind: "Web", status: "development" },
+      ],
       tags: ["Flutter", "Mobile", "Painel web"],
     },
     {
