@@ -40,7 +40,7 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 - **Projetos**, em lista com status (em produção ou em desenvolvimento), camadas (Mobile, Web, API e Banco) e a equipe RiseMov
 - **Skills**, agrupadas por área, incluindo IA no desenvolvimento (Claude Code e Codex)
 - **Contato**, com um formulário no estilo "mad-lib" que monta um e-mail pronto (`mailto:`), sem backend
-- Animações de entrada e ao rolar, com suporte a `prefers-reduced-motion`
+- Animações de entrada e ao rolar, com parallax no hero (mouse e rolagem) e suporte a `prefers-reduced-motion`
 - Menu com destaque automático da página atual
 - Layout responsivo (desktop, tablet e celular)
 
