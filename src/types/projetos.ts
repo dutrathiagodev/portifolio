@@ -11,7 +11,6 @@ export type Project = {
     | "mrnt"
     | "cantiere"
     | "futfc"
-    | "olimp"
     | "weloz"
     | "elos"
     | "faceaface"
