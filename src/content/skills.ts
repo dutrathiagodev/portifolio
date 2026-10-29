@@ -5,8 +5,10 @@ const icon = (name: string) => `/icons/${name}.svg`;
 export const skillsContent: SkillsContent = {
   heading: {
     label: "SKILLS",
-    title: "Ferramentas e competências.",
+    title: "Skills",
+    tagline: "Ferramentas e competências.",
     lead: "Tecnologias que uso no dia a dia para construir soluções escaláveis e de alta qualidade.",
+    marquee: "Flutter — React — Next.js — Supabase — Claude Code —",
   },
   groups: [
     {

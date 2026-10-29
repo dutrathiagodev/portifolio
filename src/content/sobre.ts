@@ -2,9 +2,11 @@ import type { AboutContent } from "@/types/sobre";
 
 export const aboutContent: AboutContent = {
   heading: {
-    label: "SOBRE",
-    title: "Construo software com propósito.",
+    label: "SOBRE MIM",
+    title: "Sobre",
+    tagline: "Construo software com propósito.",
     lead: "Sou Thiago Dutra de Oliveira, desenvolvedor de software curioso e proativo, com experiência prática em desenvolvimento mobile e web.",
+    marquee: "Backend & Mobile Developer —",
   },
   paragraphs: [
     "Sou apaixonado por desenvolvimento de software e gosto de atuar em ambientes dinâmicos, onde posso aprender, evoluir e enfrentar novos desafios. Tenho o compromisso de buscar constantemente crescimento profissional, explorando novas tecnologias e metodologias por meio de cursos, literatura e networking.",

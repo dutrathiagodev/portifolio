@@ -2,9 +2,11 @@ import type { ExperienceContent } from "@/types/experiencia";
 
 export const experienceContent: ExperienceContent = {
   heading: {
-    label: "EXPERIENCIA",
-    title: "Trajetória e entregas.",
+    label: "EXPERIÊNCIA",
+    title: "Experiência",
+    tagline: "Trajetória e entregas.",
     lead: "Experiência prática construindo produtos mobile e web, do design da arquitetura à entrega em produção.",
+    marquee: "Fteam — Lifeados Academy — Flutter — Supabase —",
   },
   items: [
     {

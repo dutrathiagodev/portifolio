@@ -15,5 +15,7 @@ export type RichTextPart = string | { text: string; href: string };
 export type PageHeadingContent = {
   label: string;
   title: string;
+  tagline?: string;
   lead?: string;
+  marquee: string;
 };

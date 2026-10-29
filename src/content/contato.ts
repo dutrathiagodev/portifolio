@@ -1,8 +1,12 @@
 import type { ContactContent } from "@/types/contato";
 
 export const contactContent: ContactContent = {
-  label: "CONTATO",
-  title: "Bora trocar uma ideia?",
+  heading: {
+    label: "CONTATO",
+    title: "Contato",
+    tagline: "Bora trocar uma ideia?",
+    marquee: "Vamos conversar — Bora trocar uma ideia —",
+  },
   email: "thiagodutrasap@gmail.com",
   mailSubjectPrefix: "Contato pelo portfólio - ",
   copyright: "© Thiago Dutra 2026",

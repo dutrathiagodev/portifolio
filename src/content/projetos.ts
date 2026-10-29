@@ -5,6 +5,7 @@ export const projectsContent: ProjectsContent = {
     label: "PROJETOS",
     title: "Projetos",
     lead: "Apps em Flutter e sites em Next.js, entregues do zero até produção.",
+    marquee: "MRNT — FutFC — Face a Face — OneTick — FAP Books —",
   },
   statusLabels: {
     production: "Em produção",

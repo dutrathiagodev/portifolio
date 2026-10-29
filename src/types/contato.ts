@@ -1,6 +1,7 @@
+import type { PageHeadingContent } from "@/types/common";
+
 export type ContactContent = {
-  label: string;
-  title: string;
+  heading: PageHeadingContent;
   email: string;
   mailSubjectPrefix: string;
   copyright: string;
