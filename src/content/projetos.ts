@@ -60,7 +60,8 @@ export const projectsContent: ProjectsContent = {
       href: "https://to-do-list-detetive.vercel.app",
       description:
         "Lista de tarefas com tema de investigação: cada tarefa é um caso preso num quadro de cortiça, com checklist, filtros e persistência em localStorage.",
-      initials: "TD",
+      image: "/images/detetive.png",
+      imageAlt: "To-Do List Detetive",
       tone: "detetive",
       tags: ["Next.js", "TypeScript", "localStorage"],
     },
