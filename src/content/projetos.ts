@@ -50,6 +50,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/elos.png",
       imageAlt: "Elos",
       tone: "elos",
+      status: "development",
       tags: ["Flutter", "Mobile", "Painel web"],
     },
     {
