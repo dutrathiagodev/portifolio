@@ -9,9 +9,10 @@ export function Hello() {
   const { title, skillsLabel, skillNames, experienceLabel, educationLabel } =
     helloContent;
 
-  const skills = skillsContent.groups
-    .flatMap((group) => group.skills)
-    .filter((skill) => skill.icon && skillNames.includes(skill.name));
+  const allSkills = skillsContent.groups.flatMap((group) => group.skills);
+  const skills = skillNames
+    .map((name) => allSkills.find((skill) => skill.name === name))
+    .filter((skill) => skill?.icon);
 
   return (
     <section className="hello paper torn-both">
@@ -28,10 +29,10 @@ export function Hello() {
               <h3 className="hello-label">{skillsLabel}</h3>
               <ul className="skill-tiles">
                 {skills.map((skill) => (
-                  <li key={skill.name} title={skill.name}>
+                  <li key={skill!.name} title={skill!.name}>
                     <Image
-                      src={skill.icon!}
-                      alt={skill.name}
+                      src={skill!.icon!}
+                      alt={skill!.name}
                       width={26}
                       height={26}
                     />

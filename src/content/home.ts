@@ -46,7 +46,14 @@ export const featuredContent: FeaturedContent = {
 export const helloContent: HelloContent = {
   title: "Olá",
   skillsLabel: "Skills",
-  skillNames: ["Flutter", "Dart", "React", "TypeScript", "Node.js", "Supabase"],
+  skillNames: [
+    "Flutter",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Supabase",
+    "Claude Code",
+  ],
   experienceLabel: "Experiência",
   educationLabel: "Formação",
 };
