@@ -54,6 +54,7 @@ export function Hero() {
               width={550}
               height={550}
               priority
+              unoptimized
             />
           </div>
         </div>
