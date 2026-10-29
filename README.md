@@ -29,3 +29,14 @@ Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos,
 | Repositório | https://github.com/dutrathiagodev/Portifolio-dutra |
 | LinkedIn | [dutrathiagodev](https://www.linkedin.com/in/dutrathiagodev/) |
 | GitHub | [dutrathiagodev](https://github.com/dutrathiagodev) |
+
+## O que tem no site
+
+- **Home** com apresentação, botões de navegação e links para as redes
+- **Sobre**, com o que eu faço e a formação
+- **Experiência**, em linha do tempo
+- **Projetos**, em lista com tecnologias e links
+- **Skills**, agrupadas por área
+- **Contato**, com um formulário no estilo "mad-lib" que monta um e-mail pronto (`mailto:`), sem backend
+- Menu com destaque automático da página atual
+- Layout responsivo (desktop, tablet e celular)
