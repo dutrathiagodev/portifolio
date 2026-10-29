@@ -18,16 +18,6 @@ export const projectsContent: ProjectsContent = {
       tags: ["Flutter", "React/Vite", "Painel web"],
     },
     {
-      name: "Cantiere",
-      href: "https://cantiereapp.com/",
-      description:
-        "SaaS white-label que conecta construtoras e clientes: documentos, financeiro e acompanhamento de obra em um único app, com painel web.",
-      image: "/images/cantiere.png",
-      imageAlt: "Cantiere",
-      tone: "cantiere",
-      tags: ["Flutter", "SaaS", "Painel web"],
-    },
-    {
       name: "FutFC",
       href: "https://apps.apple.com/br/app/futi-fc/id6758945796",
       description:
