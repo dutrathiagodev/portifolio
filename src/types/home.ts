@@ -1,11 +1,13 @@
 export type MarqueeRow = {
   text: string;
-  variant: "solid" | "outline" | "dim";
+  variant: "solid" | "outline";
   direction: "left" | "right";
   top: string;
 };
 
 export type HomeContent = {
+  title: string;
+  captions: { left: string; right: string };
   marquee: MarqueeRow[];
   role: string;
   technologies: string[];
@@ -23,4 +25,12 @@ export type FeaturedContent = {
   title: string;
   allLabel: string;
   allHref: string;
+};
+
+export type HelloContent = {
+  title: string;
+  skillsLabel: string;
+  skillNames: string[];
+  experienceLabel: string;
+  educationLabel: string;
 };

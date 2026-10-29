@@ -1,24 +1,25 @@
-import type { FeaturedContent, HomeContent, PipelineContent } from "@/types/home";
+import type {
+  FeaturedContent,
+  HelloContent,
+  HomeContent,
+  PipelineContent,
+} from "@/types/home";
 
 export const homeContent: HomeContent = {
+  title: "Thiago Dutra",
+  captions: { left: "SOFTWARE ENGINEER / BACKEND & MOBILE", right: "2026" },
   marquee: [
     {
-      text: "Backend & Mobile Developer —",
+      text: "Thiago Dutra —",
       variant: "solid",
       direction: "left",
-      top: "9%",
+      top: "2%",
     },
     {
       text: "Flutter — React — Node.js — Next.js — Supabase —",
       variant: "outline",
       direction: "right",
-      top: "33%",
-    },
-    {
-      text: "Software Engineer — Tech Lead — Maringá, PR —",
-      variant: "dim",
-      direction: "left",
-      top: "57%",
+      top: "66%",
     },
   ],
   role: "Backend & Mobile Developer",
@@ -40,4 +41,12 @@ export const featuredContent: FeaturedContent = {
   title: "Projetos",
   allLabel: "Ver todos →",
   allHref: "/projetos",
+};
+
+export const helloContent: HelloContent = {
+  title: "Olá",
+  skillsLabel: "Skills",
+  skillNames: ["Flutter", "Dart", "React", "TypeScript", "Node.js", "Supabase"],
+  experienceLabel: "Experiência",
+  educationLabel: "Formação",
 };
