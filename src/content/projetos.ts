@@ -20,6 +20,10 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "MRNT",
       tone: "mrnt",
       status: "production",
+      layers: [
+        { kind: "Mobile", status: "production" },
+        { kind: "Web", status: "production" },
+      ],
       tags: ["Flutter", "React/Vite", "Painel web"],
     },
     {
