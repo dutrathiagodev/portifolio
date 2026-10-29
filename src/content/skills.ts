@@ -22,6 +22,7 @@ export const skillsContent: SkillsContent = {
       label: "WEB",
       skills: [
         { name: "React", icon: icon("react") },
+        { name: "Next.js", icon: icon("nextdotjs") },
         { name: "TypeScript", icon: icon("typescript") },
       ],
     },
