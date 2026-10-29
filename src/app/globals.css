@@ -319,6 +319,30 @@ ul {
   animation: word-in 1.2s var(--ease) 0.1s forwards;
 }
 
+/* camadas com parallax (mouse e rolagem) */
+.parallax-word {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  transform: translate3d(
+    calc(var(--mx, 0) * -26px),
+    calc(var(--my, 0) * -14px + var(--sy, 0) * -50px),
+    0
+  );
+  will-change: transform;
+}
+
+.parallax-photo {
+  width: 100%;
+  height: 100%;
+  transform: translate3d(
+    calc(var(--mx, 0) * 22px),
+    calc(var(--my, 0) * 14px + var(--sy, 0) * 90px),
+    0
+  );
+  will-change: transform;
+}
+
 /* palavra sólida na frente, mas vazada no meio para o rosto aparecer */
 .hero-word {
   color: var(--foreground);

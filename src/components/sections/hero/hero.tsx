@@ -1,29 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import { homeContent } from "@/content/home";
+import { HeroStage } from "./hero-stage";
 
 export function Hero() {
   const { word, role, technologies, location, photo, cta } = homeContent;
 
   return (
-    <section className="hero">
+    <HeroStage>
       <div className="hero-photo">
-        <Image
-          src={photo.src}
-          alt={photo.alt}
-          width={930}
-          height={930}
-          priority
-        />
+        <div className="parallax-photo">
+          <Image
+            src={photo.src}
+            alt={photo.alt}
+            width={930}
+            height={930}
+            priority
+          />
+        </div>
       </div>
 
-      <p className="hero-word" aria-hidden="true">
-        {word}
-      </p>
-
-      <p className="hero-word-outline" aria-hidden="true">
-        {word}
-      </p>
+      <div className="parallax-word" aria-hidden="true">
+        <p className="hero-word">{word}</p>
+        <p className="hero-word-outline">{word}</p>
+      </div>
 
       <div className="hero-foot">
         <div className="shell">
@@ -40,6 +40,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </HeroStage>
   );
 }
