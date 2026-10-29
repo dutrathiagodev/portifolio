@@ -55,8 +55,15 @@ export const skillsContent: SkillsContent = {
         { name: "Kanban" },
         { name: "Jira", icon: icon("jira") },
         { name: "Figma", icon: icon("figma") },
+      ],
+    },
+    {
+      label: "IA NO DESENVOLVIMENTO",
+      note: "Uso Claude Code e Codex no dia a dia para acelerar o desenvolvimento, sem abrir mão de revisão e boas práticas.",
+      skills: [
+        { name: "Claude Code" },
+        { name: "Codex" },
         { name: "Inteligência Artificial" },
-        { name: "Codex e Claude Code" },
       ],
     },
     {

@@ -7,6 +7,7 @@ export type Skill = {
 
 export type SkillGroup = {
   label: string;
+  note?: string;
   skills: Skill[];
 };
 

@@ -13,6 +13,7 @@ export function Skills() {
         {groups.map((group) => (
           <div key={group.label} className="skills-group">
             <p className="group-label">{group.label}</p>
+            {group.note && <p className="group-note">{group.note}</p>}
             <div className="tag-list">
               {group.skills.map((skill) => (
                 <span key={skill.name}>
