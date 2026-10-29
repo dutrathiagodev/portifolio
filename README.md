@@ -91,3 +91,14 @@ docs/
 ```
 
 Cada página em `src/app` só compõe uma seção. Os textos ficam em `src/content` e os componentes só cuidam da apresentação. As regras completas estão em [`docs/architecture`](docs/architecture).
+
+## Publicação
+
+O site é publicado na Netlify a cada push na `main`. A configuração fica em [`netlify.toml`](netlify.toml): roda `npm run build` e usa o plugin do Next.js.
+
+## Contato
+
+- 📧 [thiagodutrasap@gmail.com](mailto:thiagodutrasap@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/dutrathiagodev/)
+- 🐙 [GitHub](https://github.com/dutrathiagodev)
+- 📸 [Instagram](https://www.instagram.com/dutrathiago.dev/)
