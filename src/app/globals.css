@@ -570,6 +570,94 @@ ul {
   color: var(--accent);
 }
 
+/* ---------- secao ola (papel) ---------- */
+.hello {
+  margin: -24px 0;
+  padding: 120px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.hello-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 56px;
+}
+
+.hello-title {
+  font-weight: 900;
+  font-size: clamp(56px, 7vw, 96px);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.hello-text {
+  margin-top: 20px;
+  max-width: 460px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #3a3733;
+}
+
+.hello-label {
+  margin-bottom: 18px;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.hello-label:not(:first-child) {
+  margin-top: 36px;
+}
+
+.skill-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 56px);
+  gap: 14px;
+}
+
+.skill-tiles li {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #111;
+  transition:
+    transform 0.3s var(--ease),
+    background 0.25s ease;
+}
+
+.skill-tiles li:hover {
+  background: var(--accent);
+  transform: translateY(-4px) rotate(-4deg);
+}
+
+.skill-tiles img {
+  filter: invert(1);
+}
+
+.hello-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hello-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+  color: #55524d;
+}
+
+.hello-list strong {
+  font-size: 15px;
+  color: #111;
+}
+
 /* ---------- pipeline ---------- */
 .pipeline {
   padding: 56px 0;
@@ -1184,6 +1272,10 @@ a.row:hover .row-go {
   .team {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .hello-grid {
+    grid-template-columns: 1fr;
   }
 
   .pipeline-flow {
