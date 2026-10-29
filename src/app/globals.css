@@ -589,6 +589,23 @@ ul {
   background: linear-gradient(135deg, #6a2f6b, #24132f);
 }
 
+.project-icon.faceaface {
+  background: linear-gradient(135deg, #0a3a8c, #b5121b);
+}
+
+.project-icon.detetive {
+  background: linear-gradient(135deg, #5a3a1e, #2a1b11);
+  color: #f5c84a;
+}
+
+.project-icon.onetick {
+  background: linear-gradient(135deg, #1f3b34, #0e1b18);
+}
+
+.project-icon.fapbooks {
+  background: linear-gradient(135deg, #0d3b6e, #032b5e);
+}
+
 .project-info h3 {
   display: flex;
   align-items: center;
