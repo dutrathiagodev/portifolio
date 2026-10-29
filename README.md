@@ -49,3 +49,11 @@ Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos,
 | [To-Do List Detetive](https://github.com/dutrathiagodev/to-do-list-detetive) | Lista de tarefas com tema de investigação | Next.js, TypeScript, localStorage |
 | [OneTick](https://github.com/dutrathiagodev/onetick) | Um foco essencial por dia, com histórico e sequência | Flutter, Firebase, Cubit |
 | [FAP Books](https://github.com/dutrathiagodev/fap-books) | Gestão e empréstimo de livros da biblioteca da FAP | Next.js, Supabase, PostgreSQL |
+
+## Tecnologias
+
+- [Next.js 16](https://nextjs.org) (App Router) e [React 19](https://react.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS 4](https://tailwindcss.com)
+- ESLint
+- [Netlify](https://www.netlify.com) para o deploy
