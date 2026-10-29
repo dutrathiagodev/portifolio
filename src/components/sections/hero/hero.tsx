@@ -1,23 +1,59 @@
-import { ButtonLink } from "@/components/ui/button-link";
-import { Container } from "@/components/ui/container";
-import { heroContent } from "@/content/hero";
+import Image from "next/image";
+import Link from "next/link";
+import { SocialLinks } from "@/components/ui/social-links";
+import { homeContent } from "@/content/home";
 
 export function Hero() {
-  const { eyebrow, title, description, primaryAction, secondaryAction } = heroContent;
+  const { label, name, role, technologies, photo, actions } = homeContent;
 
   return (
-    <section id="inicio" className="py-24 sm:py-32">
-      <Container className="flex flex-col gap-6">
-        <p className="text-sm font-medium uppercase tracking-widest text-brand">{eyebrow}</p>
-        <h1 className="text-4xl font-semibold tracking-tight sm:text-6xl">{title}</h1>
-        <p className="max-w-xl text-lg text-foreground/70">{description}</p>
-        <div className="flex flex-col gap-3 sm:flex-row">
-          <ButtonLink href={primaryAction.href}>{primaryAction.label}</ButtonLink>
-          <ButtonLink href={secondaryAction.href} variant="secondary">
-            {secondaryAction.label}
-          </ButtonLink>
+    <main className="hero">
+      <section className="hero-content">
+        <p className="hero-label">{label}</p>
+
+        <h1>{name}</h1>
+        <h2>{role}</h2>
+
+        <p className="technologies">
+          {technologies.map((tech, index) => (
+            <span key={tech}>
+              {index > 0 && (
+                <>
+                  {" "}
+                  <span className="separator">•</span>{" "}
+                </>
+              )}
+              {tech}
+            </span>
+          ))}
+        </p>
+
+        <div className="hero-buttons">
+          {actions.map((action) => (
+            <Link
+              key={action.href}
+              href={action.href}
+              className={`button button-${action.variant}`}
+            >
+              {action.label}
+            </Link>
+          ))}
         </div>
-      </Container>
-    </section>
+
+        <SocialLinks />
+      </section>
+
+      <section className="hero-image">
+        <div className="image-circle">
+          <Image
+            src={photo.src}
+            alt={photo.alt}
+            width={400}
+            height={400}
+            priority
+          />
+        </div>
+      </section>
+    </main>
   );
 }
