@@ -9,7 +9,6 @@ export type Project = {
   initials?: string;
   tone:
     | "mrnt"
-    | "cantiere"
     | "futfc"
     | "weloz"
     | "elos"
