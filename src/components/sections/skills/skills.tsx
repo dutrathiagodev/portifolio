@@ -6,7 +6,7 @@ export function Skills() {
   const { heading, groups } = skillsContent;
 
   return (
-    <main className="page">
+    <main className="page shell">
       <PageHeading {...heading} />
 
       <div className="skills-grid">

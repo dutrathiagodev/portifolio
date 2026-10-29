@@ -6,7 +6,7 @@ export function Experience() {
   const { heading, items } = experienceContent;
 
   return (
-    <main className="page">
+    <main className="page shell">
       <PageHeading {...heading} />
 
       <ul className="timeline">

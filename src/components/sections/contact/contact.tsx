@@ -6,7 +6,7 @@ export function Contact() {
   const { label, title, copyright } = contactContent;
 
   return (
-    <main className="page">
+    <main className="page shell">
       <div className="contact-card">
         <div className="contact-hero">
           <div className="contact-intro">

@@ -6,7 +6,7 @@ export function About() {
     aboutContent;
 
   return (
-    <main className="page">
+    <main className="page shell">
       <PageHeading {...heading} />
 
       {paragraphs.map((text) => (
