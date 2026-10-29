@@ -54,7 +54,15 @@ export const skillsContent: SkillsContent = {
         { name: "Agile/Scrum" },
         { name: "Kanban" },
         { name: "Jira", icon: icon("jira") },
+      ],
+    },
+    {
+      label: "UX/UI DESIGN",
+      skills: [
+        { name: "UX/UI Design" },
         { name: "Figma", icon: icon("figma") },
+        { name: "Google Stitch" },
+        { name: "Design responsivo" },
       ],
     },
     {
