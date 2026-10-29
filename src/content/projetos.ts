@@ -4,7 +4,7 @@ export const projectsContent: ProjectsContent = {
   heading: {
     label: "PROJETOS",
     title: "Projetos selecionados.",
-    lead: "Apps em Flutter com painel web, entregues do zero até produção.",
+    lead: "Apps em Flutter e sites em Next.js, entregues do zero até produção.",
   },
   projects: [
     {
