@@ -80,7 +80,8 @@ export const projectsContent: ProjectsContent = {
       href: "https://fap-books.vercel.app",
       description:
         "Sistema de gestão e empréstimo de livros da biblioteca da FAP: acervo, usuários, empréstimos, reservas, prazos e multas.",
-      initials: "FB",
+      image: "/images/fap-books.png",
+      imageAlt: "FAP Books",
       tone: "fapbooks",
       tags: ["Next.js", "Supabase", "PostgreSQL"],
     },
