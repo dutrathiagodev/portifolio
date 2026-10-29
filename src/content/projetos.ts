@@ -30,6 +30,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/futfc.png",
       imageAlt: "Futi FC",
       tone: "futfc",
+      status: "production",
       tags: ["Flutter", "Tech Lead", "Painel web"],
     },
     {
