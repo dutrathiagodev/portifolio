@@ -19,7 +19,7 @@
 
 ## Sobre
 
-Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js e redesenhado, com hero de palavra gigante, pipeline de entrega animado e lista de projetos com status e camadas.
+Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js e redesenhado: hero com a palavra gigante em creme na frente do retrato (só o miolo em contorno), pipeline de entrega animado e lista de projetos com status e camadas.
 
 ## Links
 
@@ -33,6 +33,8 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 ## O que tem no site
 
 - **Home** com hero, pipeline de entrega animado (Build, Teste, Deploy e Produção) e projetos em destaque
+- **Logo** em wordmark `TD.` na fonte do site (Satoshi Black) e favicon com o monograma TD
+- **SEO**: título e descrição por página, Open Graph e Twitter Card, imagem de compartilhamento gerada, `sitemap.xml`, `robots.txt` e dados estruturados (JSON-LD)
 - **Sobre**, com o que eu faço e a formação
 - **Experiência**, em linha do tempo
 - **Projetos**, em lista com status (em produção ou em desenvolvimento), camadas (Mobile, Web, API e Banco) e a equipe RiseMov
@@ -78,7 +80,7 @@ npm run start   # serve o build
 
 ```text
 src/
-  app/                  layout, páginas (uma pasta por rota) e estilos globais
+  app/                  layout, páginas (uma pasta por rota), estilos globais, ícone, sitemap, robots e imagem de compartilhamento
   components/
     layout/             header
     sections/<secao>/   uma pasta por seção do site
@@ -98,7 +100,7 @@ Cada página em `src/app` só compõe uma seção. Os textos ficam em `src/conte
 
 ## Publicação
 
-O site é publicado na Netlify a cada push na `main`. A configuração fica em [`netlify.toml`](netlify.toml): roda `npm run build` e usa o plugin do Next.js.
+O site é publicado na Netlify a cada push na `main`. O endereço usado no SEO fica em `src/content/site.ts` (ou na variável `NEXT_PUBLIC_SITE_URL`); ao trocar para um domínio próprio, é só mudar ali. A configuração fica em [`netlify.toml`](netlify.toml): roda `npm run build` e usa o plugin do Next.js.
 
 ## Contato
 
