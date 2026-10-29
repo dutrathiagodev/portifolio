@@ -3,11 +3,33 @@ import Link from "next/link";
 import { homeContent } from "@/content/home";
 import { HeroStage } from "./hero-stage";
 
+const REPEATS = 4;
+
 export function Hero() {
-  const { word, role, technologies, location, photo, cta } = homeContent;
+  const { marquee, role, technologies, location, photo, cta } = homeContent;
 
   return (
     <HeroStage>
+      <div className="parallax-word" aria-hidden="true">
+        {marquee.map((row) => (
+          <div
+            key={row.text}
+            className={`marquee marquee-${row.variant} marquee-${row.direction}`}
+            style={{ top: row.top }}
+          >
+            <div className="marquee-track">
+              {[0, 1].map((half) => (
+                <div key={half} className="marquee-half">
+                  {Array.from({ length: REPEATS }, (_, index) => (
+                    <span key={index}>{row.text}</span>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
       <div className="hero-photo">
         <div className="parallax-photo">
           <Image
@@ -18,11 +40,6 @@ export function Hero() {
             priority
           />
         </div>
-      </div>
-
-      <div className="parallax-word" aria-hidden="true">
-        <p className="hero-word">{word}</p>
-        <p className="hero-word-outline">{word}</p>
       </div>
 
       <div className="hero-foot">
