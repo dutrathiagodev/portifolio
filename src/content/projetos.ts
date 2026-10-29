@@ -94,6 +94,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/fap-books.png",
       imageAlt: "FAP Books",
       tone: "fapbooks",
+      status: "development",
       tags: ["Next.js", "Supabase", "PostgreSQL"],
     },
   ],
