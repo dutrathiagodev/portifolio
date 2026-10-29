@@ -3,7 +3,7 @@ import { PageHeading } from "@/components/ui/page-heading";
 import { projectsContent } from "@/content/projetos";
 
 export function Projects() {
-  const { heading, projects } = projectsContent;
+  const { heading, projects, statusLabels } = projectsContent;
 
   return (
     <main className="page">
@@ -38,8 +38,26 @@ export function Projects() {
                 ) : (
                   project.name
                 )}
+                {project.status && (
+                  <span className={`status-badge status-${project.status}`}>
+                    {statusLabels[project.status]}
+                  </span>
+                )}
               </h3>
               <p>{project.description}</p>
+
+              {project.layers && (
+                <ul className="project-layers" aria-label="Camadas do projeto">
+                  {project.layers.map((layer) => (
+                    <li
+                      key={layer.kind}
+                      className={`layer status-${layer.status}`}
+                    >
+                      {layer.kind} <span>{statusLabels[layer.status]}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             <div className="project-tags">
