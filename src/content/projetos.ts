@@ -19,6 +19,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/mrnt.png",
       imageAlt: "MRNT",
       tone: "mrnt",
+      status: "production",
       tags: ["Flutter", "React/Vite", "Painel web"],
     },
     {
