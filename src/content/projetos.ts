@@ -92,6 +92,9 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "To-Do List Detetive",
       tone: "detetive",
       status: "production",
+      layers: [
+        { kind: "Web", status: "production" },
+      ],
       tags: ["Next.js", "TypeScript", "localStorage"],
     },
     {
