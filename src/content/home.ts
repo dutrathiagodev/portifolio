@@ -1,17 +1,24 @@
-import type { HomeContent } from "@/types/home";
+import type { FeaturedContent, HomeContent, PipelineContent } from "@/types/home";
 
 export const homeContent: HomeContent = {
-  label: "SOFTWARE ENGINEER",
-  name: "Thiago Dutra",
+  word: "PORTFÓLIO",
   role: "Backend & Mobile Developer",
   technologies: ["Flutter", "React", "Node.js"],
+  location: "Maringá, PR",
   photo: {
     src: "/images/profile.png",
-    alt: "Illustrated portrait of Thiago Dutra",
+    alt: "Retrato ilustrado de Thiago Dutra",
   },
-  actions: [
-    { label: "Sobre", href: "/sobre", variant: "outline" },
-    { label: "Ver Projetos", href: "/projetos", variant: "primary" },
-    { label: "Contato", href: "/contato", variant: "outline" },
-  ],
+  cta: { label: "Ver projetos →", href: "/projetos" },
+};
+
+export const pipelineContent: PipelineContent = {
+  label: "ENTREGA",
+  stages: ["Build", "Teste", "Deploy", "Produção"],
+};
+
+export const featuredContent: FeaturedContent = {
+  title: "Projetos",
+  allLabel: "Ver todos →",
+  allHref: "/projetos",
 };

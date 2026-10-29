@@ -1,8 +1,19 @@
 export type HomeContent = {
-  label: string;
-  name: string;
+  word: string;
   role: string;
   technologies: string[];
+  location: string;
   photo: { src: string; alt: string };
-  actions: { label: string; href: string; variant: "outline" | "primary" }[];
+  cta: { label: string; href: string };
+};
+
+export type PipelineContent = {
+  label: string;
+  stages: string[];
+};
+
+export type FeaturedContent = {
+  title: string;
+  allLabel: string;
+  allHref: string;
 };
