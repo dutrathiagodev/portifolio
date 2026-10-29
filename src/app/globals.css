@@ -1370,6 +1370,14 @@ a.row:hover .row-go {
     gap: 10px 18px;
   }
 
+  .hero {
+    --photo: 66vw;
+  }
+
+  .hero-band {
+    height: 360px;
+  }
+
   .hero-caps {
     font-size: 11px;
     letter-spacing: 0.06em;
