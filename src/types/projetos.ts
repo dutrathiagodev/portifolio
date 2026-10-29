@@ -23,8 +23,8 @@ export type Project = {
     | "detetive"
     | "onetick"
     | "fapbooks";
-  status?: ProjectStatus;
-  layers?: ProjectLayer[];
+  status: ProjectStatus;
+  layers: ProjectLayer[];
   tags: string[];
 };
 
