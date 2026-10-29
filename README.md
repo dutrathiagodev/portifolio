@@ -40,3 +40,12 @@ Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos,
 - **Contato**, com um formulário no estilo "mad-lib" que monta um e-mail pronto (`mailto:`), sem backend
 - Menu com destaque automático da página atual
 - Layout responsivo (desktop, tablet e celular)
+
+## Projetos em destaque
+
+| Projeto | Descrição | Tecnologias |
+|---|---|---|
+| [Face a Face](https://github.com/dutrathiagodev/landing-page-face-a-face) | Guia cívico do 2º turno de 2026, com comparativo equilibrado e fontes | Next.js, Tailwind, Figma |
+| [To-Do List Detetive](https://github.com/dutrathiagodev/to-do-list-detetive) | Lista de tarefas com tema de investigação | Next.js, TypeScript, localStorage |
+| [OneTick](https://github.com/dutrathiagodev/onetick) | Um foco essencial por dia, com histórico e sequência | Flutter, Firebase, Cubit |
+| [FAP Books](https://github.com/dutrathiagodev/fap-books) | Gestão e empréstimo de livros da biblioteca da FAP | Next.js, Supabase, PostgreSQL |
