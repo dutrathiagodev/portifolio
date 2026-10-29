@@ -6,8 +6,10 @@ export function Experience() {
   const { heading, items } = experienceContent;
 
   return (
-    <main className="page shell">
+    <main className="page">
       <PageHeading {...heading} />
+
+      <div className="shell page-body">
 
       <ul className="timeline">
         {items.map((item) => (
@@ -30,6 +32,7 @@ export function Experience() {
           </li>
         ))}
       </ul>
+      </div>
     </main>
   );
 }

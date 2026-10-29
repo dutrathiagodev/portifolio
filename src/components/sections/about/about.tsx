@@ -6,8 +6,10 @@ export function About() {
     aboutContent;
 
   return (
-    <main className="page shell">
+    <main className="page">
       <PageHeading {...heading} />
+
+      <div className="shell page-body">
 
       {paragraphs.map((text) => (
         <p key={text} className="text-block">
@@ -44,6 +46,7 @@ export function About() {
           </li>
         ))}
       </ul>
+      </div>
     </main>
   );
 }

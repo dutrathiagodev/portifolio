@@ -6,8 +6,10 @@ export function Skills() {
   const { heading, groups } = skillsContent;
 
   return (
-    <main className="page shell">
+    <main className="page">
       <PageHeading {...heading} />
+
+      <div className="shell page-body">
 
       <div className="skills-grid">
         {groups.map((group) => (
@@ -26,6 +28,7 @@ export function Skills() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </main>
   );

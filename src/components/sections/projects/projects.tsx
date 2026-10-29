@@ -8,8 +8,10 @@ export function Projects() {
     projectsContent;
 
   return (
-    <main className="page shell">
-      <PageHeading {...heading} tightDivider />
+    <main className="page">
+      <PageHeading {...heading} />
+
+      <div className="shell page-body">
 
       <ul className="rows" style={{ marginTop: 0, borderTop: "none" }}>
         {projects.map((project, index) => (
@@ -43,6 +45,7 @@ export function Projects() {
           </a>
         </section>
       </Reveal>
+      </div>
     </main>
   );
 }
