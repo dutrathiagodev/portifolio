@@ -63,6 +63,7 @@ export const skillsContent: SkillsContent = {
         { name: "Figma", icon: icon("figma") },
         { name: "Google Stitch" },
         { name: "Design responsivo" },
+        { name: "Motion Design" },
       ],
     },
     {
