@@ -10,11 +10,11 @@ export const siteContent = {
 };
 
 export const navItems: NavItem[] = [
-  { label: "SOBRE", href: "/sobre" },
-  { label: "EXPERIÊNCIA", href: "/experiencia" },
-  { label: "PROJETOS", href: "/projetos" },
-  { label: "SKILLS", href: "/skills" },
-  { label: "CONTATO", href: "/contato" },
+  { label: "Sobre", href: "/sobre" },
+  { label: "Experiência", href: "/experiencia" },
+  { label: "Projetos", href: "/projetos" },
+  { label: "Skills", href: "/skills" },
+  { label: "Contato", href: "/contato" },
 ];
 
 export const socialLinks: SocialLink[] = [

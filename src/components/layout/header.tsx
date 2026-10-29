@@ -9,11 +9,10 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="header">
-      <nav className="navbar" aria-label="Principal">
+    <header className="site-header">
+      <nav className="shell nav" aria-label="Principal">
         <Link href="/" className="logo">
-          {siteContent.logo.text}
-          <span>{siteContent.logo.suffix}</span>
+          {siteContent.name}
         </Link>
 
         <div className="nav-links">
