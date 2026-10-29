@@ -83,6 +83,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/onetick.png",
       imageAlt: "OneTick",
       tone: "onetick",
+      status: "development",
       tags: ["Flutter", "Firebase", "Cubit"],
     },
     {
