@@ -72,6 +72,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/detetive.png",
       imageAlt: "To-Do List Detetive",
       tone: "detetive",
+      status: "production",
       tags: ["Next.js", "TypeScript", "localStorage"],
     },
     {
