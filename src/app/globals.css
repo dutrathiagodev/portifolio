@@ -179,7 +179,8 @@ ul {
     transition: none;
   }
 
-  .live {
+  .live,
+  .marquee-track {
     animation: none !important;
   }
 }
@@ -295,35 +296,18 @@ ul {
 
 /* ---------- hero ---------- */
 .hero {
-  --photo: min(640px, 92vw, 78svh);
+  --photo: min(720px, 92vw, 88svh);
   position: relative;
   height: min(860px, 100svh);
   min-height: 640px;
   overflow: hidden;
 }
 
-.hero-word,
-.hero-word-outline {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20%;
-  text-align: center;
-  font-family: var(--font-anton), sans-serif;
-  font-size: clamp(110px, 25vw, 360px);
-  line-height: 0.95;
-  letter-spacing: 2px;
-  white-space: nowrap;
-  user-select: none;
-  opacity: 0;
-  animation: word-in 1.2s var(--ease) 0.1s forwards;
-}
-
 /* camadas com parallax (mouse e rolagem) */
 .parallax-word {
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: 1;
   transform: translate3d(
     calc(var(--mx, 0) * -26px),
     calc(var(--my, 0) * -14px + var(--sy, 0) * -50px),
@@ -343,32 +327,70 @@ ul {
   will-change: transform;
 }
 
-/* palavra sólida na frente, mas vazada no meio para o rosto aparecer */
-.hero-word {
-  color: var(--foreground);
-  z-index: 2;
-  -webkit-mask-image: linear-gradient(
-    to right,
-    #000 37%,
-    transparent 37%,
-    transparent 63%,
-    #000 63%
-  );
-  mask-image: linear-gradient(
-    to right,
-    #000 37%,
-    transparent 37%,
-    transparent 63%,
-    #000 63%
-  );
+/* faixas de frases que passam atrás do retrato */
+@keyframes marquee-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-/* só o contorno das letras do meio */
-.hero-word-outline {
+@keyframes marquee-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.marquee {
+  position: absolute;
+  left: -4vw;
+  right: -4vw;
+  overflow: hidden;
+  font-family: var(--font-anton), sans-serif;
+  font-size: clamp(90px, 14vw, 200px);
+  line-height: 1.05;
+  text-transform: uppercase;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+}
+
+.marquee-left .marquee-track {
+  animation: marquee-left 38s linear infinite;
+}
+
+.marquee-right .marquee-track {
+  animation: marquee-right 46s linear infinite;
+}
+
+.marquee-half {
+  display: flex;
+}
+
+.marquee-half span {
+  padding-right: 0.5em;
+}
+
+.marquee-solid {
+  color: var(--foreground);
+}
+
+.marquee-outline {
   color: transparent;
   -webkit-text-stroke: 2px var(--foreground);
-  clip-path: inset(0 37% 0 37%);
-  z-index: 3;
+}
+
+.marquee-dim {
+  color: #2a2623;
 }
 
 .hero-photo {
@@ -378,17 +400,11 @@ ul {
   width: var(--photo);
   height: var(--photo);
   margin-left: calc(var(--photo) / -2);
-  z-index: 1;
+  z-index: 2;
   opacity: 0;
   animation: photo-in 1.4s var(--ease) 0.25s forwards;
-  -webkit-mask-image:
-    linear-gradient(to bottom, transparent 0%, #000 14%, #000 70%, transparent 100%),
-    linear-gradient(to right, transparent 0%, #000 22%, #000 78%, transparent 100%);
-  -webkit-mask-composite: source-in;
-  mask-image:
-    linear-gradient(to bottom, transparent 0%, #000 14%, #000 70%, transparent 100%),
-    linear-gradient(to right, transparent 0%, #000 22%, #000 78%, transparent 100%);
-  mask-composite: intersect;
+  -webkit-mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
 }
 
 .hero-photo img {
