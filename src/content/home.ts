@@ -6,7 +6,7 @@ export const homeContent: HomeContent = {
   technologies: ["Flutter", "React", "Node.js"],
   location: "Maringá, PR",
   photo: {
-    src: "/images/profile.png",
+    src: "/images/profile.webp",
     alt: "Retrato ilustrado de Thiago Dutra",
   },
   cta: { label: "Ver projetos →", href: "/projetos" },

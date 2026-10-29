@@ -9,7 +9,7 @@ export function JsonLd() {
     url: siteContent.url,
     jobTitle: siteContent.jobTitle,
     description: siteContent.description,
-    image: `${siteContent.url}/images/profile.png`,
+    image: `${siteContent.url}/images/profile.webp`,
     knowsAbout: siteContent.skills,
     address: {
       "@type": "PostalAddress",

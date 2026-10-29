@@ -295,6 +295,7 @@ ul {
 
 /* ---------- hero ---------- */
 .hero {
+  --photo: min(760px, 92vw, 90svh);
   position: relative;
   height: min(860px, 100svh);
   min-height: 640px;
@@ -350,9 +351,9 @@ ul {
   position: absolute;
   left: 50%;
   bottom: 0;
-  width: min(640px, 90vw);
-  height: min(640px, 90vw);
-  margin-left: calc(min(640px, 90vw) / -2);
+  width: var(--photo);
+  height: var(--photo);
+  margin-left: calc(var(--photo) / -2);
   z-index: 1;
   opacity: 0;
   animation: photo-in 1.4s var(--ease) 0.25s forwards;
