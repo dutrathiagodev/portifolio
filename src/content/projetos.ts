@@ -40,6 +40,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/weloz.png",
       imageAlt: "Weloz",
       tone: "weloz",
+      status: "development",
       tags: ["Flutter", "Mobile", "Painel web"],
     },
     {
