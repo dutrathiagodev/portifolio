@@ -57,3 +57,15 @@ Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos,
 - [Tailwind CSS 4](https://tailwindcss.com)
 - ESLint
 - [Netlify](https://www.netlify.com) para o deploy
+
+## Como rodar
+
+Pré-requisito: Node.js 20 ou superior.
+
+```bash
+npm install
+npm run dev     # desenvolvimento em http://localhost:3000
+npm run lint    # lint
+npm run build   # build de produção
+npm run start   # serve o build
+```
