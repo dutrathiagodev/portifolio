@@ -69,3 +69,25 @@ npm run lint    # lint
 npm run build   # build de produção
 npm run start   # serve o build
 ```
+
+## Estrutura
+
+```text
+src/
+  app/                  layout, páginas (uma pasta por rota) e estilos globais
+  components/
+    layout/             header
+    sections/<secao>/   uma pasta por seção do site
+    ui/                 componentes visuais reutilizáveis
+  content/              textos e dados de cada página
+  lib/                  utilitários
+  types/                tipos compartilhados
+public/
+  images/               fotos e logos dos projetos
+  icons/                ícones das redes e das tecnologias
+docs/
+  architecture/         regras de arquitetura do projeto
+  images/               imagens usadas na documentação
+```
+
+Cada página em `src/app` só compõe uma seção. Os textos ficam em `src/content` e os componentes só cuidam da apresentação. As regras completas estão em [`docs/architecture`](docs/architecture).
