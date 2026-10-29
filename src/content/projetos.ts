@@ -6,6 +6,10 @@ export const projectsContent: ProjectsContent = {
     title: "Projetos selecionados.",
     lead: "Apps em Flutter e sites em Next.js, entregues do zero até produção.",
   },
+  statusLabels: {
+    production: "Em produção",
+    development: "Em desenvolvimento",
+  },
   projects: [
     {
       name: "MRNT",
