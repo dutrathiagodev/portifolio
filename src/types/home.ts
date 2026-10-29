@@ -1,5 +1,12 @@
+export type MarqueeRow = {
+  text: string;
+  variant: "solid" | "outline" | "dim";
+  direction: "left" | "right";
+  top: string;
+};
+
 export type HomeContent = {
-  word: string;
+  marquee: MarqueeRow[];
   role: string;
   technologies: string[];
   location: string;
