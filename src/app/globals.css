@@ -325,7 +325,7 @@ ul {
 
 /* ---------- hero (cartaz) ---------- */
 .hero {
-  --photo: min(560px, 86vw);
+  --photo: min(620px, 86vw);
   position: relative;
   overflow: hidden;
   padding-bottom: 0;
@@ -1371,7 +1371,7 @@ a.row:hover .row-go {
   }
 
   .hero {
-    --photo: 82vw;
+    --photo: 96vw;
   }
 
   .hero-band {
