@@ -38,15 +38,6 @@ export const projectsContent: ProjectsContent = {
       tags: ["Flutter", "Tech Lead", "Painel web"],
     },
     {
-      name: "Olimpíadas FAP",
-      description:
-        "App interno para organização das Olimpíadas da faculdade, com foco na arquitetura e estruturação do projeto em Flutter.",
-      image: "/images/fap-olimpiadas.png",
-      imageAlt: "Olimpíadas FAP",
-      tone: "olimp",
-      tags: ["Flutter", "Arquitetura", "Painel web"],
-    },
-    {
       name: "Weloz",
       description:
         "App de logística e entregas, com onboarding para clientes e entregadores e acompanhamento em tempo real.",
