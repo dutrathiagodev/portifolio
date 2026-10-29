@@ -20,3 +20,12 @@
 ## Sobre
 
 Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js, mantendo o mesmo conteúdo e o mesmo design.
+
+## Links
+
+| | |
+|---|---|
+| Site publicado | https://dutrathiagodev.netlify.app (atualizado a cada mudança na `main`) |
+| Repositório | https://github.com/dutrathiagodev/Portifolio-dutra |
+| LinkedIn | [dutrathiagodev](https://www.linkedin.com/in/dutrathiagodev/) |
+| GitHub | [dutrathiagodev](https://github.com/dutrathiagodev) |
