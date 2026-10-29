@@ -3,6 +3,7 @@ import { Anton, JetBrains_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
+import { JsonLd } from "@/components/layout/json-ld";
 import { siteContent } from "@/content/site";
 import "./globals.css";
 
@@ -29,8 +30,30 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: siteContent.title,
+  metadataBase: new URL(siteContent.url),
+  title: {
+    default: siteContent.title,
+    template: `%s | ${siteContent.name}`,
+  },
   description: siteContent.description,
+  keywords: siteContent.keywords,
+  authors: [{ name: siteContent.name, url: siteContent.url }],
+  creator: siteContent.name,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "/",
+    siteName: siteContent.name,
+    title: siteContent.title,
+    description: siteContent.description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteContent.title,
+    description: siteContent.description,
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -40,6 +63,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${satoshi.variable} ${anton.variable} ${jetbrainsMono.variable}`}
     >
       <body>
+        <JsonLd />
         <Header />
         {children}
         <Footer />
