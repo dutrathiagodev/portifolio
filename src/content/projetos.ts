@@ -78,6 +78,9 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "Face a Face",
       tone: "faceaface",
       status: "production",
+      layers: [
+        { kind: "Web", status: "production" },
+      ],
       tags: ["Next.js", "Tailwind", "Figma"],
     },
     {
