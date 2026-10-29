@@ -198,9 +198,31 @@ ul {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.logo-mark {
   font-weight: 900;
-  font-size: 18px;
-  letter-spacing: -0.3px;
+  font-size: 26px;
+  letter-spacing: -1.5px;
+  line-height: 1;
+}
+
+.logo-dot {
+  color: var(--accent);
+}
+
+.logo-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+
+.logo:hover .logo-name {
+  color: var(--foreground);
 }
 
 .nav-links {
@@ -1025,6 +1047,10 @@ a.row:hover .row-go {
 
 /* ---------- celular ---------- */
 @media (max-width: 650px) {
+  .logo-name {
+    display: none;
+  }
+
   .nav {
     height: auto;
     padding: 20px 24px;
