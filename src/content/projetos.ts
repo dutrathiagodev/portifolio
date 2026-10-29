@@ -64,5 +64,14 @@ export const projectsContent: ProjectsContent = {
       tone: "elos",
       tags: ["Flutter", "Mobile", "Painel web"],
     },
+    {
+      name: "Face a Face",
+      href: "https://dutrathiagodev.github.io/landing-page-face-a-face/",
+      description:
+        "Guia cívico do 2º turno de 2026: comparativo equilibrado entre os candidatos, com perfis, indicadores lado a lado, status jurídico e fontes.",
+      initials: "FF",
+      tone: "faceaface",
+      tags: ["Next.js", "Tailwind", "Figma"],
+    },
   ],
 };
