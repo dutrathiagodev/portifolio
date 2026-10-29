@@ -11,8 +11,8 @@ export const contactContent: ContactContent = {
   mailSubjectPrefix: "Contato pelo portfólio - ",
   copyright: "© Thiago Dutra 2026",
   fields: {
-    name: "SEU NOME COMPLETO",
-    subject: "UM PROJETO, IDEIA OU PROPOSTA",
+    name: "SEU NOME",
+    subject: "SEU ASSUNTO",
     email: "SEU E-MAIL",
   },
 };

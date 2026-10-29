@@ -4,7 +4,7 @@ import { contactContent } from "@/content/contato";
 import { ContactForm } from "./contact-form";
 
 export function Contact() {
-  const { heading, copyright } = contactContent;
+  const { heading } = contactContent;
 
   return (
     <main className="page">
@@ -17,7 +17,6 @@ export function Contact() {
           </div>
 
           <div className="contact-footer">
-            <p className="footer-copy">{copyright}</p>
             <SocialLinks />
           </div>
         </div>
