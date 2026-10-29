@@ -2,9 +2,34 @@ import type { NavItem, SocialLink } from "@/types/common";
 
 export const siteContent = {
   name: "Thiago Dutra",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://dutrathiagodev.netlify.app",
   title: "Thiago Dutra | Software Engineer",
   description:
-    "Thiago Dutra — Software Engineer focused on mobile and web development.",
+    "Portfólio de Thiago Dutra, Software Engineer em Maringá, PR. Desenvolvimento mobile com Flutter, web com React e Next.js e backend com Node.js, Supabase e Firebase.",
+  jobTitle: "Software Engineer",
+  keywords: [
+    "Thiago Dutra",
+    "Software Engineer",
+    "desenvolvedor Flutter",
+    "desenvolvedor mobile",
+    "desenvolvedor React",
+    "desenvolvedor Next.js",
+    "backend Node.js",
+    "Supabase",
+    "portfólio",
+    "Maringá",
+  ],
+  skills: [
+    "Flutter",
+    "Dart",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Supabase",
+    "Firebase",
+  ],
+  location: { city: "Maringá", region: "PR", country: "BR" },
   copyright: "© Thiago Dutra 2026",
   madeWith: "Feito com Next.js",
 };
