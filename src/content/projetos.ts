@@ -106,6 +106,10 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "OneTick",
       tone: "onetick",
       status: "development",
+      layers: [
+        { kind: "Mobile", status: "development" },
+        { kind: "Banco", status: "development" },
+      ],
       tags: ["Flutter", "Firebase", "Cubit"],
     },
     {
