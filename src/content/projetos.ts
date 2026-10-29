@@ -121,6 +121,11 @@ export const projectsContent: ProjectsContent = {
       imageAlt: "FAP Books",
       tone: "fapbooks",
       status: "development",
+      layers: [
+        { kind: "Web", status: "development" },
+        { kind: "API", status: "development" },
+        { kind: "Banco", status: "development" },
+      ],
       tags: ["Next.js", "Supabase", "PostgreSQL"],
     },
   ],
