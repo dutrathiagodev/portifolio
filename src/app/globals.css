@@ -295,7 +295,7 @@ ul {
 
 /* ---------- hero ---------- */
 .hero {
-  --photo: min(760px, 92vw, 90svh);
+  --photo: min(640px, 92vw, 78svh);
   position: relative;
   height: min(860px, 100svh);
   min-height: 640px;
