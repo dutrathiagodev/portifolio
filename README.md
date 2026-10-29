@@ -19,7 +19,7 @@
 
 ## Sobre
 
-Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js e redesenhado: hero com faixas de frases passando atrás do retrato, pipeline de entrega animado e lista de projetos com status e camadas.
+Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js e redesenhado: hero em estilo cartaz (papel quadriculado, bordas rasgadas, faixa preta com a frase passando e retrato recortado com contorno), pipeline de entrega animado e lista de projetos com status e camadas.
 
 ## Links
 
@@ -32,7 +32,7 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 
 ## O que tem no site
 
-- **Home** com hero (faixas de frases passando atrás do retrato), pipeline de entrega animado (Build, Teste, Deploy e Produção) e projetos em destaque
+- **Home** com hero em estilo cartaz, seção Olá (bio, skills, formação e experiência), pipeline de entrega animado (Build, Teste, Deploy e Produção) e projetos em destaque
 - **Logo** em wordmark `TD.` na fonte do site (Satoshi Black) e favicon com o monograma TD
 - **SEO**: título e descrição por página, Open Graph e Twitter Card, imagem de compartilhamento gerada, `sitemap.xml`, `robots.txt` e dados estruturados (JSON-LD)
 - **Sobre**, com o que eu faço e a formação
