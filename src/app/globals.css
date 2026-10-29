@@ -322,23 +322,71 @@ ul {
   color: var(--accent);
 }
 
-/* ---------- hero ---------- */
+/* ---------- hero (cartaz) ---------- */
 .hero {
-  --photo: min(620px, 92vw, 74svh);
+  --photo: min(560px, 86vw);
   position: relative;
-  height: min(860px, 100svh);
-  min-height: 640px;
   overflow: hidden;
+  padding-bottom: 0;
+}
+
+.hero-paper-top {
+  position: relative;
+  z-index: 2;
+  padding: 48px 0 150px;
+}
+
+.hero-caps {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.hero-title {
+  margin-top: 8px;
+  font-weight: 900;
+  font-size: clamp(48px, 10.6vw, 168px);
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.hero-glyphs {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 36px;
+}
+
+.hero-band {
+  position: relative;
+  margin-top: -80px;
+  height: clamp(300px, 34vw, 440px);
+  background: #090909;
+}
+
+.band-glyphs {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+  display: flex;
+  gap: 18px;
+  color: var(--foreground);
+  transform: translateY(-50%);
 }
 
 /* camadas com parallax (mouse e rolagem) */
 .parallax-word {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  overflow: hidden;
   transform: translate3d(
     calc(var(--mx, 0) * -26px),
-    calc(var(--my, 0) * -14px + var(--sy, 0) * -50px),
+    calc(var(--my, 0) * -10px),
     0
   );
   will-change: transform;
@@ -348,8 +396,8 @@ ul {
   width: 100%;
   height: 100%;
   transform: translate3d(
-    calc(var(--mx, 0) * 22px),
-    calc(var(--my, 0) * 14px + var(--sy, 0) * 90px),
+    calc(var(--mx, 0) * 18px),
+    calc(var(--my, 0) * 10px + var(--sy, 0) * 70px),
     0
   );
   will-change: transform;
@@ -376,15 +424,18 @@ ul {
 
 .marquee {
   position: absolute;
-  left: -4vw;
-  right: -4vw;
-  overflow: hidden;
+  left: 0;
+  right: 0;
   font-family: var(--font-anton), sans-serif;
-  font-size: clamp(90px, 14vw, 200px);
+  font-size: clamp(110px, 17vw, 250px);
   line-height: 1.05;
   text-transform: uppercase;
   white-space: nowrap;
   user-select: none;
+}
+
+.marquee-outline {
+  font-size: clamp(60px, 8vw, 120px);
 }
 
 .marquee-track {
@@ -393,7 +444,7 @@ ul {
 }
 
 .marquee-left .marquee-track {
-  animation: marquee-left 38s linear infinite;
+  animation: marquee-left 40s linear infinite;
 }
 
 .marquee-right .marquee-track {
@@ -417,39 +468,37 @@ ul {
   -webkit-text-stroke: 2px var(--foreground);
 }
 
-.marquee-dim {
-  color: #2a2623;
-}
-
+/* retrato recortado com contorno (adesivo) */
 .hero-photo {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: -10px;
+  z-index: 3;
   width: var(--photo);
   height: var(--photo);
   margin-left: calc(var(--photo) / -2);
-  z-index: 2;
   opacity: 0;
   animation: photo-in 1.4s var(--ease) 0.25s forwards;
-  -webkit-mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
 }
 
 .hero-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: drop-shadow(5px 0 0 var(--accent)) drop-shadow(-5px 0 0 var(--accent))
+    drop-shadow(0 5px 0 var(--accent)) drop-shadow(0 -5px 0 var(--accent))
+    drop-shadow(4px 4px 0 var(--accent)) drop-shadow(-4px -4px 0 var(--accent))
+    drop-shadow(4px -4px 0 var(--accent)) drop-shadow(-4px 4px 0 var(--accent));
 }
 
-.hero-foot {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 56px;
-  z-index: 5;
+.hero-paper-bottom {
+  position: relative;
+  z-index: 4;
+  margin-top: -70px;
+  padding: 120px 0 72px;
 }
 
-.hero-foot .shell {
+.hero-foot-row {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -458,22 +507,34 @@ ul {
 }
 
 .hero-role {
-  font-size: 17px;
-  font-weight: 500;
+  font-size: clamp(22px, 2.6vw, 34px);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
 .hero-tech {
   margin-top: 6px;
-  font-size: 15px;
-  color: var(--muted);
+  font-size: 16px;
+  color: #55524d;
 }
 
 .hero-side {
   display: flex;
   align-items: center;
   gap: 20px;
-  color: var(--muted);
   font-size: 15px;
+  color: #55524d;
+}
+
+.btn-ink {
+  background: #111;
+  color: #ecebe7;
+}
+
+.btn-ink:hover {
+  background: var(--accent);
+  color: #111;
 }
 
 /* ---------- secoes ---------- */
