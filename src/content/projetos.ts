@@ -61,6 +61,7 @@ export const projectsContent: ProjectsContent = {
       image: "/images/face-a-face.svg",
       imageAlt: "Face a Face",
       tone: "faceaface",
+      status: "production",
       tags: ["Next.js", "Tailwind", "Figma"],
     },
     {
