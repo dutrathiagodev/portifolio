@@ -16,3 +16,7 @@
 ![Tela principal do portfólio](docs/images/tela-principal.jpg)
 
 </div>
+
+## Sobre
+
+Portfólio pessoal em tema escuro com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js, mantendo o mesmo conteúdo e o mesmo design.
