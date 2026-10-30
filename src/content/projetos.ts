@@ -127,7 +127,7 @@ export const projectsContent: ProjectsContent = {
       name: "FAP Books",
       href: "https://fap-books.vercel.app",
       description:
-        "Gestão e empréstimo de livros da biblioteca da FAP.",
+        "Gestão e empréstimo de livros da biblioteca da FAP, projeto de fim de semestre em equipe de 6 pessoas. Atuo como Tech Lead, Dev e QA: levei o design do Stitch para o Figma, automatizei GitHub, Trello e Vercel e adaptei o Git Flow com uma branch por demanda do Trello. Enquanto a equipe cuida do front-end, sigo no full-stack e no banco em Supabase.",
       status: "development",
       featured: true,
       layers: [
@@ -135,7 +135,16 @@ export const projectsContent: ProjectsContent = {
         { kind: "API", status: "development" },
         { kind: "Banco", status: "development" },
       ],
-      tags: ["Next.js", "Supabase", "PostgreSQL"],
+      tags: [
+        "Next.js",
+        "Supabase",
+        "PostgreSQL",
+        "Tech Lead",
+        "QA",
+        "Git Flow",
+        "Figma",
+        "Stitch",
+      ],
     },
     {
       name: "Big-Z",
