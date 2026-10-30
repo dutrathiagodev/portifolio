@@ -45,6 +45,48 @@ export const aboutContent: AboutContent = {
         "Claude Code e Codex no desenvolvimento; automação com SQL, Python e BI em estudo.",
     },
   ],
+  startup: {
+    label: "STARTUP",
+    name: "RiseMov",
+    paragraphs: [
+      "Criei a RiseMov, uma startup focada em estudos, com mais 3 colegas que também são da área de TI. Ela nasceu para ajudar um amigo: enquanto ensino, eu aprendo e aprimoro ainda mais o meu conhecimento.",
+      "Começamos nas férias do meio do ano, com uma skill de ensino baseada em roadmaps estruturados e na metodologia Mastery Learning (aprendizagem para o domínio, de Benjamin Bloom), aplicada por uma IA. Ela explica os conceitos teóricos e práticos, pede que o aluno pratique e faz um mini teste teórico e prático ao final, sempre com foco em boas práticas, e indica um vídeo para aprofundar o assunto.",
+      "A IA é rigorosa nos detalhes: se o aluno erra, ela cobra, orienta e diz o que está certo ou errado, para que ninguém avance de módulo sem dominar o conteúdo. Com isso, meu amigo melhorou aspectos do desenvolvimento no trabalho e voltou à rotina. Seguimos estudando aos poucos, com aulas e workshops sobre tecnologia, um ajudando o outro.",
+    ],
+    links: [{ label: "github.com/RiseMov", href: "https://github.com/RiseMov" }],
+  },
+  mentorshipLabel: "MENTORIAS E COMUNIDADE",
+  mentorship: [
+    {
+      title: "Lifeados Academy",
+      mentor: "Mentor: André Pimentel",
+      description:
+        "Participo da mentoria da Lifeados Academy. Ela me ajudou a me desenvolver e a chegar até a Fteam.",
+      links: [
+        { label: "lifeados.com.br", href: "https://www.lifeados.com.br/" },
+        {
+          label: "LinkedIn da Lifeados",
+          href: "https://www.linkedin.com/company/lifeados-academy/",
+        },
+        {
+          label: "LinkedIn do André",
+          href: "https://www.linkedin.com/in/appimentels/",
+        },
+      ],
+    },
+    {
+      title: "Acelera Dev",
+      mentor: "Mentor: Guilherme Pessoa",
+      description:
+        "Comunidade dev que ajuda nos estudos. O Guilherme ajuda a melhorar o LinkedIn e o GitHub e a me posicionar, sempre apoiando o pessoal. Muita coisa mudou para mim depois que entrei nas duas mentorias.",
+      links: [
+        {
+          label: "LinkedIn do Guilherme",
+          href: "https://www.linkedin.com/in/guilhermep-c/",
+        },
+      ],
+    },
+  ],
   educationLabel: "EDUCAÇÃO",
   education: [
     {

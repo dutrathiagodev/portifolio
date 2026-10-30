@@ -1164,6 +1164,52 @@ a.row:hover .row-go {
   line-height: 1.6;
 }
 
+.about-feature {
+  margin-top: 20px;
+  padding: 28px 0 4px 24px;
+  border-left: 2px solid var(--accent);
+  max-width: 760px;
+}
+
+.about-feature h3 {
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.about-feature p {
+  margin-top: 14px;
+  color: var(--soft);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 16px;
+}
+
+.about-feature .about-links,
+.education-item .about-links {
+  margin-top: 16px;
+}
+
+.about-links a {
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.about-links a:hover {
+  border-color: var(--accent);
+}
+
 .education-practice {
   margin-top: 12px;
   padding-left: 14px;
