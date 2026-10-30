@@ -56,6 +56,14 @@ export const experienceContent: ExperienceContent = {
           " (SaaS com aplicativo e painel em Flutter).",
         ],
         [
+          "Atuação como QA e suporte nos projetos ",
+          {
+            text: "Together Movement",
+            href: "https://apps.apple.com/br/app/together-movement/id6755253318",
+          },
+          " e Together Nordeste, apoiando os testes e o suporte dos aplicativos.",
+        ],
+        [
           "Desenvolvimento e manutenção de aplicações mobile multiplataforma em Flutter para Android e iOS.",
         ],
         [

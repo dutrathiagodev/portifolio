@@ -51,7 +51,7 @@ export const projectsContent: ProjectsContent = {
         "Atuação como QA no aplicativo: apoio nos testes e no suporte.",
       status: "production",
       layers: [{ kind: "Mobile", status: "production" }],
-      tags: ["QA", "Testes", "Suporte"],
+      tags: ["QA", "Testes", "Suporte", "Fteam"],
     },
     {
       name: "FutFC",
