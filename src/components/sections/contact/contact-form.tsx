@@ -5,7 +5,7 @@ import { contactContent } from "@/content/contato";
 
 // site sem backend: o "enviar" monta um e-mail pronto
 export function ContactForm() {
-  const { fields, email: to, mailSubjectPrefix } = contactContent;
+  const { fields, email: to, mailSubjectPrefix, form } = contactContent;
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -56,7 +56,7 @@ export function ContactForm() {
       </p>
 
       <button type="submit" className="send-btn">
-        ENVIAR
+        {form.send} <span aria-hidden="true">→</span>
       </button>
     </form>
   );
