@@ -164,7 +164,7 @@ export const projectsContent: ProjectsContent = {
     label: "EQUIPE",
     name: "RiseMov",
     description:
-      "Startup de estudos que criei com 3 colegas de TI e que também pega freelas, como o Big-Z, com Flutter, Next.js, NestJS e Supabase.",
+      "Startup de estudos que criei com 3 colegas de TI e que também atua em projetos freelance, como o Big-Z, com Flutter, Next.js, NestJS e Supabase.",
     href: "https://github.com/RiseMov",
     linkLabel: "github.com/RiseMov →",
   },
