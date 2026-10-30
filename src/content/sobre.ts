@@ -88,7 +88,7 @@ export const aboutContent: AboutContent = {
         "Colégio Estadual Maria Dalila · Santo Antônio da Platina, PR · 2023–2025",
       ],
       detail:
-        "Lógica de Programação; Algoritmos e Estrutura de Dados; Arquitetura de Computadores.",
+        "Lógica de Programação; Algoritmos e Estrutura de Dados; Arquitetura de Computadores; Banco de Dados.",
     },
     {
       title: "Tecnólogo — Análise e Desenvolvimento de Sistemas",
