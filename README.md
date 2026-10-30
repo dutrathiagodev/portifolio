@@ -11,7 +11,7 @@
 ![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-deploy-00C7B7?logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-deploy-000000?logo=vercel&logoColor=white)
 
 ![Tela principal do portfólio](docs/images/tela-principal.jpg)
 
@@ -63,7 +63,7 @@ Outros projetos: MRNT, FutFC, Weloz, Elos e o Big-Z (em equipe, na [RiseMov](htt
 - [Tailwind CSS 4](https://tailwindcss.com)
 - Fontes [Satoshi](https://www.fontshare.com/fonts/satoshi) (Fontshare), [Anton](https://fonts.google.com/specimen/Anton) e [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - ESLint
-- [Netlify](https://www.netlify.com) para o deploy
+- [Vercel](https://vercel.com) para o deploy
 
 ## Como rodar
 
@@ -101,7 +101,7 @@ Cada página em `src/app` só compõe uma seção. Os textos ficam em `src/conte
 
 ## Publicação
 
-O site é publicado na Netlify a cada push na `main`. O endereço usado no SEO fica em `src/content/site.ts` (ou na variável `NEXT_PUBLIC_SITE_URL`); ao trocar para um domínio próprio, é só mudar ali. A configuração fica em [`netlify.toml`](netlify.toml): roda `npm run build` e usa o plugin do Next.js.
+O site é publicado na Vercel a cada push na `main`. O endereço usado no SEO fica em `src/content/site.ts` (ou na variável `NEXT_PUBLIC_SITE_URL`); ao trocar para um domínio próprio, é só mudar ali. A configuração fica em [`netlify.toml`](netlify.toml): roda `npm run build` e usa o plugin do Next.js.
 
 ## Contato
 
