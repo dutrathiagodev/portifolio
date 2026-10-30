@@ -97,7 +97,12 @@ export const experienceContent: ExperienceContent = {
             text: "FutFC",
             href: "https://apps.apple.com/br/app/futi-fc/id6758945796",
           },
-          " e Olimpíadas FAP), liderando decisões técnicas e arquitetura em Flutter.",
+          " e ",
+          {
+            text: "OneTick",
+            href: "https://github.com/dutrathiagodev/onetick",
+          },
+          "), liderando decisões técnicas e arquitetura em Flutter.",
         ],
         [
           "Desenvolvimento em Flutter como desenvolvedor em outros dois projetos (Weloz e Elos).",
