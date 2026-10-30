@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Anton, JetBrains_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import { Footer } from "@/components/layout/footer";
@@ -69,6 +70,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
