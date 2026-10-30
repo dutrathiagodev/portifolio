@@ -6,9 +6,28 @@ export const experienceContent: ExperienceContent = {
     title: "Experiência",
     tagline: "Trajetória e entregas.",
     lead: "Experiência prática construindo produtos mobile e web, do design da arquitetura à entrega em produção.",
-    marquee: "Fteam — Lifeados Academy — Flutter — Supabase —",
+    marquee: "Fteam — Lifeados Academy — EAD da FAP — Flutter — Supabase —",
   },
   items: [
+    {
+      tag: "ATUAL",
+      title: "Suporte D2L e Designer Gráfico / Editor",
+      company: "EAD da FAP · Faculdade Adventista do Paraná",
+      period: "09/2026 — o momento",
+      location: "Paraná, Brasil",
+      highlights: [
+        [
+          "Suporte aos usuários da plataforma de ensino D2L (Brightspace) no EAD da FAP.",
+        ],
+        [
+          "Criação de peças de design gráfico e edição de materiais para o EAD.",
+        ],
+        [
+          "Estudo de automação com SQL, Python e BI para otimizar os processos e os trabalhos do setor.",
+        ],
+      ],
+      stack: "D2L, Design gráfico, SQL, Python e BI",
+    },
     {
       tag: "ATUAL",
       title: "Software Engineer Intern",
@@ -17,12 +36,22 @@ export const experienceContent: ExperienceContent = {
       location: "Maringá, Paraná, Brasil · Remoto",
       highlights: [
         [
-          "Desenvolvimento dos projetos ",
+          "Desenvolvimento da plataforma white label ",
           {
             text: "MRNT",
             href: "https://apps.apple.com/br/app/mrnt-rede-social-jovem-adv7/id6733221013",
           },
-          " (aplicativo Flutter e painel web em React + Vite) e ",
+          " (aplicativo Flutter e painel web em React + Vite) e dos apps derivados ",
+          {
+            text: "Pass7",
+            href: "https://apps.apple.com/br/app/pass7/id6806004328",
+          },
+          " e ",
+          {
+            text: "MRNT Teen",
+            href: "https://apps.apple.com/br/app/mrnt-teen-rede-adv7-teen/id6801344875",
+          },
+          ", além do ",
           { text: "Cantiere", href: "https://cantiereapp.com/" },
           " (SaaS com aplicativo e painel em Flutter).",
         ],

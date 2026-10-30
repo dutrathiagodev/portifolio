@@ -24,7 +24,7 @@ export const projectsContent: ProjectsContent = {
         { kind: "Mobile", status: "production" },
         { kind: "Web", status: "production" },
       ],
-      tags: ["Flutter", "React/Vite", "White label"],
+      tags: ["Flutter", "React/Vite", "White label", "Fteam"],
     },
     {
       name: "Pass7",
@@ -33,7 +33,7 @@ export const projectsContent: ProjectsContent = {
         "App derivado da plataforma MRNT (white label), publicado na App Store.",
       status: "production",
       layers: [{ kind: "Mobile", status: "production" }],
-      tags: ["Flutter", "White label"],
+      tags: ["Flutter", "White label", "Fteam"],
     },
     {
       name: "MRNT Teen",
@@ -42,16 +42,16 @@ export const projectsContent: ProjectsContent = {
         "Versão para o público adolescente da rede, a partir da mesma plataforma MRNT.",
       status: "production",
       layers: [{ kind: "Mobile", status: "production" }],
-      tags: ["Flutter", "White label"],
+      tags: ["Flutter", "White label", "Fteam"],
     },
     {
       name: "Together Movement",
       href: "https://apps.apple.com/br/app/together-movement/id6755253318",
       description:
-        "Participação no projeto com suporte e testes do aplicativo.",
+        "Atuação como QA no aplicativo: apoio nos testes e no suporte.",
       status: "production",
       layers: [{ kind: "Mobile", status: "production" }],
-      tags: ["Suporte", "Testes"],
+      tags: ["QA", "Testes", "Suporte"],
     },
     {
       name: "FutFC",
