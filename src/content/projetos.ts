@@ -17,14 +17,41 @@ export const projectsContent: ProjectsContent = {
       name: "MRNT",
       href: "https://apps.apple.com/br/app/mrnt-rede-social-jovem-adv7/id6733221013",
       description:
-        "Rede social para jovens advogados, com aplicativo em Flutter e painel em React + Vite.",
+        "Plataforma white label de rede social, com aplicativo em Flutter e painel em React + Vite. Base dos apps Pass7 e MRNT Teen.",
       status: "production",
       featured: true,
       layers: [
         { kind: "Mobile", status: "production" },
         { kind: "Web", status: "production" },
       ],
-      tags: ["Flutter", "React/Vite"],
+      tags: ["Flutter", "React/Vite", "White label"],
+    },
+    {
+      name: "Pass7",
+      href: "https://apps.apple.com/br/app/pass7/id6806004328",
+      description:
+        "App derivado da plataforma MRNT (white label), publicado na App Store.",
+      status: "production",
+      layers: [{ kind: "Mobile", status: "production" }],
+      tags: ["Flutter", "White label"],
+    },
+    {
+      name: "MRNT Teen",
+      href: "https://apps.apple.com/br/app/mrnt-teen-rede-adv7-teen/id6801344875",
+      description:
+        "Versão para o público adolescente da rede, a partir da mesma plataforma MRNT.",
+      status: "production",
+      layers: [{ kind: "Mobile", status: "production" }],
+      tags: ["Flutter", "White label"],
+    },
+    {
+      name: "Together Movement",
+      href: "https://apps.apple.com/br/app/together-movement/id6755253318",
+      description:
+        "Participação no projeto com suporte e testes do aplicativo.",
+      status: "production",
+      layers: [{ kind: "Mobile", status: "production" }],
+      tags: ["Suporte", "Testes"],
     },
     {
       name: "FutFC",
