@@ -103,7 +103,7 @@ export const aboutContent: AboutContent = {
         "Na prática: projetos desenvolvidos em trabalhos e disciplinas da faculdade, como FAP Books (Tech Lead, Dev e QA), Face a Face e To-Do List Detetive.",
     },
     {
-      title: "CS50x — Introdução à Ciência da Computação",
+      title: "CS50x — Introduction to Computer Science",
       meta: [
         "8 de 10 módulos concluídos",
         "Harvard University · online · 2026 · em andamento",
