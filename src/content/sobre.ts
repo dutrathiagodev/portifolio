@@ -49,7 +49,7 @@ export const aboutContent: AboutContent = {
     name: "Startup de estudos",
     paragraphs: [
       "Criei a RiseMov com mais 3 colegas de TI, nas férias do meio do ano, para ajudar um amigo: ensinando, eu também aprendo e evoluo.",
-      "Usamos uma IA com roadmaps estruturados e Mastery Learning, de Benjamin Bloom: ela explica a teoria e a prática, pede que o aluno pratique, aplica um mini teste e só libera o próximo módulo quando ele domina, indicando um vídeo para aprofundar. Hoje fazemos aulas e workshops de tecnologia e também pegamos freelas.",
+      "Usamos uma IA com roadmaps estruturados e Mastery Learning, de Benjamin Bloom: ela explica a teoria e a prática, pede que o aluno pratique, aplica um mini teste e só libera o próximo módulo quando ele domina, indicando um vídeo para aprofundar. Hoje assistimos juntos a aulas e workshops de tecnologia e também pegamos freelas.",
     ],
     links: [{ label: "github.com/RiseMov", href: "https://github.com/RiseMov" }],
   },
