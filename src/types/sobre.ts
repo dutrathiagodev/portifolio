@@ -6,5 +6,10 @@ export type AboutContent = {
   doLabel: string;
   doItems: { title: string; description: string }[];
   educationLabel: string;
-  education: { title: string; meta: string[]; detail: string }[];
+  education: {
+    title: string;
+    meta: string[];
+    detail: string;
+    practice?: string;
+  }[];
 };

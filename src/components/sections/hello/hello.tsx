@@ -21,7 +21,7 @@ export function Hello() {
           <div className="hello-head">
             <h2 className="hello-title">{title}</h2>
             <p className="hello-text">{aboutContent.paragraphs[0]}</p>
-            <p className="hello-text">{aboutContent.paragraphs[2]}</p>
+            <p className="hello-text">{aboutContent.paragraphs[3]}</p>
           </div>
 
           <div className="hello-grid">

@@ -1164,6 +1164,16 @@ a.row:hover .row-go {
   line-height: 1.6;
 }
 
+.education-practice {
+  margin-top: 12px;
+  padding-left: 14px;
+  border-left: 2px solid var(--accent);
+  color: var(--foreground);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 640px;
+}
+
 .education-detail {
   margin-top: 10px;
   color: var(--soft);

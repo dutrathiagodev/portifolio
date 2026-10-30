@@ -43,6 +43,9 @@ export function About() {
               </p>
             ))}
             <p className="education-detail">{item.detail}</p>
+            {item.practice && (
+              <p className="education-practice">{item.practice}</p>
+            )}
           </li>
         ))}
       </ul>
