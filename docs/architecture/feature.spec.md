@@ -1,6 +1,6 @@
 # Feature Spec - Arquitetura Padrao
 
-Documento normativo do projeto de landing page com React, Next.js e Tailwind CSS.
+Documento normativo do projeto do portfolio profissional de Thiago Dutra, com React, Next.js e Tailwind CSS.
 
 ## Escopo
 
@@ -23,7 +23,7 @@ Define a stack, a estrutura de pastas, o fluxo de dependencia e as regras de com
 2. Separacao de responsabilidade
 
 - src/app: rotas, layout e metadata
-- src/components/sections: markup de cada secao da landing
+- src/components/sections: markup de cada secao do portfolio
 - src/components/ui: elementos visuais genericos (container, section-heading, button-link)
 - src/components/layout: header e footer
 - src/content: textos e dados estaticos

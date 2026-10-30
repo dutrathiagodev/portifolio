@@ -1,13 +1,13 @@
 # Feature Skills - Next.js + Tailwind CSS
 
-Guia pratico para criar e evoluir a landing page com React, Next.js e Tailwind CSS.
+Guia pratico para criar e evoluir o portfolio profissional com React, Next.js e Tailwind CSS.
 
 ## Objetivo
 
 Manter consistencia entre as secoes, com responsabilidades claras:
 
 - src/app: rotas, layout e metadata (somente composicao)
-- src/components/sections: secoes da landing (hero, features, pricing, faq...)
+- src/components/sections: secoes do portfolio (hero, sobre, experiencia, projetos, skills, contato...)
 - src/components/ui: componentes visuais reutilizaveis
 - src/content: textos, links e dados estaticos
 - src/lib e src/types: utilitarios e tipos compartilhados

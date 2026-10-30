@@ -1,6 +1,6 @@
 # Feature Template (Scaffold)
 
-Passo a passo para criar o projeto da landing page com React, Next.js e Tailwind CSS.
+Passo a passo para criar o projeto do portfolio profissional com React, Next.js e Tailwind CSS.
 
 > Todo o codigo fica dentro de `src/`. Na raiz ficam apenas `public/`, `docs/`, configs e `package.json`.
 
@@ -16,8 +16,8 @@ Passo a passo para criar o projeto da landing page com React, Next.js e Tailwind
 Pre-requisito: Node.js 20 ou superior.
 
 ```bash
-npx create-next-app@latest lading-page --typescript --tailwind --eslint --app --no-src-dir --import-alias "@/*"
-cd lading-page
+npx create-next-app@latest portifolio-dutra --typescript --tailwind --eslint --app --no-src-dir --import-alias "@/*"
+cd portifolio-dutra
 npm run dev
 ```
 
