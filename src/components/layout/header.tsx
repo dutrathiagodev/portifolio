@@ -12,10 +12,10 @@ export function Header() {
     <header className="site-header">
       <nav className="shell nav" aria-label="Principal">
         <Link href="/" className="logo" aria-label={siteContent.name}>
-          <span className="logo-mark">
-            TD<span className="logo-dot">.</span>
+          <span className="logo-mark" aria-hidden="true">
+            {siteContent.name}
+            <span className="logo-dot">.</span>
           </span>
-          <span className="logo-name">{siteContent.name}</span>
         </Link>
 
         <div className="nav-links">

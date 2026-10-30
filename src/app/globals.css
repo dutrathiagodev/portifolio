@@ -265,29 +265,25 @@ ul {
 .logo {
   display: inline-flex;
   align-items: baseline;
-  gap: 12px;
 }
 
+/* logo em estilo cartaz: Anton, caixa alta e ponto coral */
 .logo-mark {
-  font-weight: 900;
+  font-family: var(--font-anton), sans-serif;
+  font-weight: 400;
   font-size: 26px;
-  letter-spacing: -1.5px;
+  letter-spacing: 0.02em;
   line-height: 1;
+  text-transform: uppercase;
+  transition: transform 0.3s var(--ease);
+}
+
+.logo:hover .logo-mark {
+  transform: translateY(-2px);
 }
 
 .logo-dot {
   color: var(--accent);
-}
-
-.logo-name {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--muted);
-  transition: color 0.2s ease;
-}
-
-.logo:hover .logo-name {
-  color: var(--foreground);
 }
 
 .nav-links {
@@ -1560,10 +1556,6 @@ a.row:hover .row-go {
 
 /* ---------- celular ---------- */
 @media (max-width: 650px) {
-  .logo-name {
-    display: none;
-  }
-
   .nav {
     height: auto;
     padding: 20px 24px;
