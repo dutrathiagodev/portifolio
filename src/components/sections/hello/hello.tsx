@@ -18,13 +18,13 @@ export function Hello() {
     <section className="hello paper torn-both">
       <div className="shell">
         <Reveal>
-          <div className="hello-grid">
-            <div>
-              <h2 className="hello-title">{title}</h2>
-              <p className="hello-text">{aboutContent.paragraphs[0]}</p>
-              <p className="hello-text">{aboutContent.paragraphs[2]}</p>
-            </div>
+          <div className="hello-head">
+            <h2 className="hello-title">{title}</h2>
+            <p className="hello-text">{aboutContent.paragraphs[0]}</p>
+            <p className="hello-text">{aboutContent.paragraphs[2]}</p>
+          </div>
 
+          <div className="hello-grid">
             <div>
               <h3 className="hello-label">{skillsLabel}</h3>
               <ul className="skill-tiles">
@@ -39,7 +39,9 @@ export function Hello() {
                   </li>
                 ))}
               </ul>
+            </div>
 
+            <div>
               <h3 className="hello-label">{educationLabel}</h3>
               <ul className="hello-list">
                 {aboutContent.education.map((item) => (
