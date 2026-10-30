@@ -2,6 +2,7 @@ import { pipelineContent } from "@/content/home";
 
 // as etapas acendem em sequência e a última fica "ao vivo"
 const STEP = 1.4;
+// depois da entrada, um pulso percorre as etapas em loop (ver .line::after)
 
 export function Pipeline() {
   const { label, stages } = pipelineContent;
@@ -33,7 +34,10 @@ export function Pipeline() {
                 </div>
 
                 {!isLast && (
-                  <div className="line" aria-hidden="true">
+                  <div
+                    className={`line line-${index}`}
+                    aria-hidden="true"
+                  >
                     <div
                       className="line-fill"
                       style={
