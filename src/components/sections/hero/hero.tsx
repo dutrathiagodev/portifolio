@@ -51,8 +51,8 @@ export function Hero() {
             <Image
               src={photo.src}
               alt={photo.alt}
-              width={710}
-              height={710}
+              width={910}
+              height={1030}
               priority
               unoptimized
             />
