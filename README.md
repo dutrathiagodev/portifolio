@@ -5,7 +5,7 @@
 
 **Backend & Mobile Developer: Flutter, React e Node.js.**
 
-[![Site](https://img.shields.io/badge/site-online-FFFFFF?style=for-the-badge&labelColor=0B0B0B)](https://dutrathiagodev.vercel.app)
+[![Site](https://img.shields.io/badge/site-online-FFFFFF?style=for-the-badge&labelColor=0B0B0B)](https://dutrathiagodev.com.br)
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)
@@ -25,7 +25,7 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 
 | | |
 |---|---|
-| Site publicado | https://dutrathiagodev.vercel.app (atualizado a cada mudança na `main`) |
+| Site publicado | https://dutrathiagodev.com.br (atualizado a cada mudança na `main`) |
 | Repositório | https://github.com/dutrathiagodev/Portifolio-dutra |
 | LinkedIn | [dutrathiagodev](https://www.linkedin.com/in/dutrathiagodev/) |
 | GitHub | [dutrathiagodev](https://github.com/dutrathiagodev) |

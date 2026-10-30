@@ -2,7 +2,7 @@ import type { NavItem, SocialLink } from "@/types/common";
 
 export const siteContent = {
   name: "Thiago Dutra",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://dutrathiagodev.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://dutrathiagodev.com.br",
   fullName: "Thiago Dutra de Oliveira",
   title: "Thiago Dutra | Software Engineer, Flutter, React e Node.js",
   description:
