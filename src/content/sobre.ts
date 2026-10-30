@@ -58,7 +58,8 @@ export const aboutContent: AboutContent = {
     {
       title: "Lifeados Academy",
       mentor: "Mentor: André Pimentel",
-      description: "Me ajudou a evoluir e a chegar até a Fteam.",
+      description:
+        "Mentoria online de desenvolvimento mobile e web com IA, com Flutter, Node.js e React, projetos reais e comunidade. Me ajudou a evoluir e a chegar até a Fteam.",
       links: [
         { label: "lifeados.com.br", href: "https://www.lifeados.com.br/" },
         {
