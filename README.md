@@ -39,7 +39,7 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 - **Skills**, agrupadas por área, incluindo UX/UI Design e IA no desenvolvimento (Claude Code e Codex)
 - **Contato**, com o e-mail em destaque e botão de copiar, canais (WhatsApp, LinkedIn, GitHub e Instagram) e um formulário no estilo "mad-lib" que monta um e-mail pronto (`mailto:`), sem backend
 - **Logo** em wordmark `THIAGO DUTRA.` em Anton, com o ponto coral, e favicon com o monograma TD
-- **SEO**: título e descrição por página, Open Graph e Twitter Card, imagem de compartilhamento gerada em estilo cartaz com o retrato, `sitemap.xml`, `robots.txt` e dados estruturados (JSON-LD)
+- **SEO**: título e descrição por página, Open Graph e Twitter Card, imagem de compartilhamento com o hero (retrato e título em estilo cartaz), `sitemap.xml`, `robots.txt` e dados estruturados (JSON-LD)
 - Todas as páginas seguem o mesmo estilo cartaz: título gigante no papel quadriculado, borda rasgada e faixa preta com a frase passando
 - Animações de entrada e ao rolar, parallax no hero (mouse e rolagem) e suporte a `prefers-reduced-motion`
 - Menu com destaque automático da página atual e barra de rolagem personalizada
@@ -62,7 +62,6 @@ Outros projetos: MRNT (plataforma white label) e os apps Pass7 e MRNT Teen, Futi
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind CSS 4](https://tailwindcss.com)
 - Fontes [Satoshi](https://www.fontshare.com/fonts/satoshi) (Fontshare), [Anton](https://fonts.google.com/specimen/Anton) e [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-- `next/og` para a imagem de compartilhamento
 - ESLint
 - [Vercel](https://vercel.com) para o deploy
 
