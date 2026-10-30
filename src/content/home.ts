@@ -27,7 +27,7 @@ export const homeContent: HomeContent = {
   location: "Maringá, PR",
   photo: {
     src: "/images/profile.webp",
-    alt: "Retrato ilustrado de Thiago Dutra",
+    alt: "Retrato de Thiago Dutra",
   },
   cta: { label: "Ver projetos →", href: "/projetos" },
 };

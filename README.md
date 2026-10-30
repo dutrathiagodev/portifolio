@@ -19,7 +19,7 @@
 
 ## Sobre
 
-Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js e redesenhado: hero em estilo cartaz (papel quadriculado, bordas rasgadas, faixa preta com a frase passando e retrato recortado com contorno), pipeline de entrega animado e lista de projetos com status e camadas.
+Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiência, Projetos, Skills e Contato. Começou como um site estático em HTML, CSS e JavaScript e foi migrado para Next.js e redesenhado em estilo cartaz: papel quadriculado, bordas rasgadas, faixa preta com a frase passando e retrato recortado com contorno coral. O conteúdo cobre experiência na Fteam, na Lifeados Academy e no EAD da FAP, projetos em produção e em desenvolvimento, a startup RiseMov, mentorias e formação.
 
 ## Links
 
@@ -32,17 +32,17 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 
 ## O que tem no site
 
-- **Home** com hero em estilo cartaz, seção Olá (bio, skills, formação e experiência), pipeline de entrega animado (Build, Teste, Deploy e Produção) e projetos em destaque
-- **Logo** em wordmark `TD.` na fonte do site (Satoshi Black) e favicon com o monograma TD
-- **SEO**: título e descrição por página, Open Graph e Twitter Card, imagem de compartilhamento gerada, `sitemap.xml`, `robots.txt` e dados estruturados (JSON-LD)
-- **Sobre**, com o que eu faço e a formação
-- **Experiência**, em linha do tempo
-- **Projetos**, em lista com status (em produção ou em desenvolvimento), camadas (Mobile, Web, API e Banco) e a equipe RiseMov
-- **Skills**, agrupadas por área, incluindo IA no desenvolvimento (Claude Code e Codex)
-- **Contato**, com um formulário no estilo "mad-lib" que monta um e-mail pronto (`mailto:`), sem backend
-- Animações de entrada e ao rolar, com parallax no hero (mouse e rolagem) e suporte a `prefers-reduced-motion`
-- Menu com destaque automático da página atual
+- **Home** com hero em estilo cartaz (retrato com parallax), seção Olá (bio, skills principais, formação e experiência), seção Entrega com o pipeline animado (Build, Teste, Deploy e Produção, com um pulso em loop) e projetos em destaque
+- **Sobre**, com o que eu faço, a startup RiseMov (estudos com IA e Mastery Learning, de Benjamin Bloom), as mentorias (Lifeados Academy e Acelera Dev) e a formação, incluindo o CS50x de Harvard
+- **Experiência**, em linha do tempo: EAD da FAP, Fteam e Lifeados Academy
+- **Projetos**, em lista com status (em produção ou em desenvolvimento), camadas (Mobile, Web, API e Banco) e a equipe RiseMov; inclui a plataforma white label MRNT e os apps Pass7 e MRNT Teen
+- **Skills**, agrupadas por área, incluindo UX/UI Design e IA no desenvolvimento (Claude Code e Codex)
+- **Contato**, com o e-mail em destaque e botão de copiar, canais (WhatsApp, LinkedIn, GitHub e Instagram) e um formulário no estilo "mad-lib" que monta um e-mail pronto (`mailto:`), sem backend
+- **Logo** em wordmark `THIAGO DUTRA.` em Anton, com o ponto coral, e favicon com o monograma TD
+- **SEO**: título e descrição por página, Open Graph e Twitter Card, imagem de compartilhamento gerada em estilo cartaz com o retrato, `sitemap.xml`, `robots.txt` e dados estruturados (JSON-LD)
 - Todas as páginas seguem o mesmo estilo cartaz: título gigante no papel quadriculado, borda rasgada e faixa preta com a frase passando
+- Animações de entrada e ao rolar, parallax no hero (mouse e rolagem) e suporte a `prefers-reduced-motion`
+- Menu com destaque automático da página atual e barra de rolagem personalizada
 - Layout responsivo (desktop, tablet e celular)
 
 ## Projetos em destaque
@@ -54,7 +54,7 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 | [OneTick](https://github.com/dutrathiagodev/onetick) | Um foco essencial por dia, com histórico e sequência | Flutter, Firebase, Cubit |
 | [FAP Books](https://github.com/dutrathiagodev/fap-books) | Gestão e empréstimo de livros da biblioteca da FAP (equipe de 6, Tech Lead, Dev e QA) | Next.js, Supabase, PostgreSQL, Git Flow |
 
-Outros projetos: MRNT, FutiFC, Weloz, Elos e o Big-Z (em equipe, na [RiseMov](https://github.com/RiseMov)).
+Outros projetos: MRNT (plataforma white label) e os apps Pass7 e MRNT Teen, FutiFC, Together Movement (QA e suporte), Weloz, Elos e o Big-Z (em equipe, na [RiseMov](https://github.com/RiseMov)).
 
 ## Tecnologias
 
@@ -62,6 +62,7 @@ Outros projetos: MRNT, FutiFC, Weloz, Elos e o Big-Z (em equipe, na [RiseMov](ht
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind CSS 4](https://tailwindcss.com)
 - Fontes [Satoshi](https://www.fontshare.com/fonts/satoshi) (Fontshare), [Anton](https://fonts.google.com/specimen/Anton) e [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- `next/og` para a imagem de compartilhamento
 - ESLint
 - [Vercel](https://vercel.com) para o deploy
 
@@ -81,27 +82,27 @@ npm run start   # serve o build
 
 ```text
 src/
-  app/                  layout, páginas (uma pasta por rota), estilos globais, ícone, sitemap, robots e imagem de compartilhamento
+  app/                  layout, páginas (uma pasta por rota), fontes, estilos globais, ícone, sitemap, robots e imagem de compartilhamento
   components/
-    layout/             header
+    layout/             header, footer e dados estruturados (JSON-LD)
     sections/<secao>/   uma pasta por seção do site
     ui/                 componentes visuais reutilizáveis
   content/              textos e dados de cada página
   lib/                  utilitários
   types/                tipos compartilhados
 public/
-  images/               fotos e logos dos projetos
+  images/               retrato usado no hero
   icons/                ícones das redes e das tecnologias
 docs/
   architecture/         regras de arquitetura do projeto
-  images/               imagens usadas na documentação
+  images/               imagens usadas na documentação (print da tela principal)
 ```
 
 Cada página em `src/app` só compõe uma seção. Os textos ficam em `src/content` e os componentes só cuidam da apresentação. As regras completas estão em [`docs/architecture`](docs/architecture).
 
 ## Publicação
 
-O site é publicado na Vercel a cada push na `main`. O endereço usado no SEO fica em `src/content/site.ts` (ou na variável `NEXT_PUBLIC_SITE_URL`); ao trocar para um domínio próprio, é só mudar ali. A configuração fica em [`netlify.toml`](netlify.toml): roda `npm run build` e usa o plugin do Next.js.
+O site é publicado na Vercel a cada push na `main`, sem arquivo de configuração: a Vercel detecta o Next.js e roda `npm run build`. O endereço usado no SEO fica em `src/content/site.ts` (ou na variável `NEXT_PUBLIC_SITE_URL`); ao trocar para um domínio próprio, é só mudar ali.
 
 ## Contato
 
