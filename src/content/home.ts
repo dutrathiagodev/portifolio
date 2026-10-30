@@ -53,6 +53,7 @@ export const helloContent: HelloContent = {
     "TypeScript",
     "Supabase",
     "Claude Code",
+    "Figma",
   ],
   experienceLabel: "Experiência",
   educationLabel: "Formação",

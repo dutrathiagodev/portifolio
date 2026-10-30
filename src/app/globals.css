@@ -621,7 +621,7 @@ ul {
 
 .skill-tiles {
   display: grid;
-  grid-template-columns: repeat(3, 56px);
+  grid-template-columns: repeat(4, 56px);
   gap: 14px;
 }
 
