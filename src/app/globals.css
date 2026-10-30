@@ -509,6 +509,8 @@ ul {
   width: var(--photo);
   height: var(--photo);
   margin-left: calc(var(--photo) / -2);
+  /* o corpo desce até a borda rasgada, mas não passa do fim da faixa */
+  clip-path: inset(-100vh -100vw 0 -100vw);
   opacity: 0;
   animation: photo-in 1.4s var(--ease) 0.25s forwards;
 }
