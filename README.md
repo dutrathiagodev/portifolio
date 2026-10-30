@@ -26,7 +26,7 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 | | |
 |---|---|
 | Site publicado | https://dutrathiagodev.com.br (atualizado a cada mudança na `main`) |
-| Repositório | https://github.com/dutrathiagodev/Portifolio-dutra |
+| Repositório | https://github.com/dutrathiagodev/portifolio |
 | LinkedIn | [dutrathiagodev](https://www.linkedin.com/in/dutrathiagodev/) |
 | GitHub | [dutrathiagodev](https://github.com/dutrathiagodev) |
 
