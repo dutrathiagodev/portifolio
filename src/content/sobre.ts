@@ -106,9 +106,10 @@ export const aboutContent: AboutContent = {
       title: "CS50x — Introdução à Ciência da Computação",
       meta: [
         "8 de 10 módulos concluídos",
-        "Harvard University · online · em andamento",
+        "Harvard University · online · 2026 · em andamento",
       ],
       detail: "C, Python, SQL, algoritmos e desenvolvimento web.",
+      links: [{ label: "cs50.harvard.edu/x", href: "https://cs50.harvard.edu/x/" }],
     },
   ],
 };

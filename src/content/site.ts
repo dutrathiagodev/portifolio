@@ -2,7 +2,7 @@ import type { NavItem, SocialLink } from "@/types/common";
 
 export const siteContent = {
   name: "Thiago Dutra",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://portifolio-dutra.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://dutrathiagodev.vercel.app",
   title: "Thiago Dutra | Software Engineer",
   description:
     "Portfólio de Thiago Dutra, Software Engineer em Maringá, PR. Desenvolvimento mobile com Flutter, web com React e Next.js e backend com Node.js, Supabase e Firebase.",

@@ -26,5 +26,6 @@ export type AboutContent = {
     meta: string[];
     detail: string;
     practice?: string;
+    links?: AboutLink[];
   }[];
 };
