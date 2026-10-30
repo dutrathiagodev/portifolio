@@ -3,9 +3,10 @@ import type { NavItem, SocialLink } from "@/types/common";
 export const siteContent = {
   name: "Thiago Dutra",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://dutrathiagodev.vercel.app",
-  title: "Thiago Dutra | Software Engineer",
+  fullName: "Thiago Dutra de Oliveira",
+  title: "Thiago Dutra | Software Engineer, Flutter, React e Node.js",
   description:
-    "Portfólio de Thiago Dutra, Software Engineer em Maringá, PR. Desenvolvimento mobile com Flutter, web com React e Next.js e backend com Node.js, Supabase e Firebase.",
+    "Portfólio de Thiago Dutra, Software Engineer em Maringá, PR, aberto a oportunidades. Apps Flutter, web com React e Next.js e backend com Node.js e Supabase.",
   jobTitle: "Software Engineer",
   keywords: [
     "Thiago Dutra",
@@ -18,6 +19,14 @@ export const siteContent = {
     "Supabase",
     "portfólio",
     "Maringá",
+    "Paraná",
+    "Tech Lead Flutter",
+    "Flutter developer Brazil",
+    "desenvolvedor Flutter Maringá",
+    "desenvolvedor full-stack",
+    "desenvolvedor de software júnior",
+    "Fteam",
+    "Lifeados Academy",
   ],
   skills: [
     "Flutter",
@@ -28,6 +37,18 @@ export const siteContent = {
     "Node.js",
     "Supabase",
     "Firebase",
+    "Clean Architecture",
+    "Git Flow",
+    "CI/CD",
+    "Figma",
+  ],
+  email: "thiagodutrasap@gmail.com",
+  worksFor: [
+    { name: "Fteam" },
+    { name: "Lifeados Academy", url: "https://www.lifeados.com.br" },
+  ],
+  alumniOf: [
+    { name: "Faculdade Adventista do Paraná" },
   ],
   location: { city: "Maringá", region: "PR", country: "BR" },
   copyright: "© Thiago Dutra 2026",

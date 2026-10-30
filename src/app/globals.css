@@ -654,16 +654,16 @@ ul {
 
 .skill-tiles {
   display: grid;
-  grid-template-columns: repeat(4, 56px);
-  gap: 14px;
+  grid-template-columns: repeat(auto-fill, 72px);
+  gap: 16px;
 }
 
 .skill-tiles li {
-  width: 56px;
-  height: 56px;
+  width: 72px;
+  height: 72px;
   display: grid;
   place-items: center;
-  border-radius: 14px;
+  border-radius: 18px;
   background: #111;
   transition:
     transform 0.3s var(--ease),

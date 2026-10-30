@@ -1,0 +1,31 @@
+# Thiago Dutra
+
+> Software Engineer em Maringá, PR (Brasil), aberto a oportunidades. Desenvolve apps mobile com Flutter, aplicações web com React e Next.js e backend com Node.js e Supabase. Tech Lead em projetos Flutter e QA em apps publicados na App Store.
+
+Nome completo: Thiago Dutra de Oliveira. Idioma do site: português do Brasil.
+
+## Páginas
+
+- [Início](https://dutrathiagodev.vercel.app/): resumo, skills principais, experiência atual e projetos em destaque
+- [Sobre](https://dutrathiagodev.vercel.app/sobre): o que faz, a startup RiseMov, mentorias (Lifeados Academy e Acelera Dev) e formação
+- [Experiência](https://dutrathiagodev.vercel.app/experiencia): EAD da FAP, Fteam e Lifeados Academy
+- [Projetos](https://dutrathiagodev.vercel.app/projetos): apps e sites com status (em produção ou em desenvolvimento) e camadas (Mobile, Web, API e Banco)
+- [Skills](https://dutrathiagodev.vercel.app/skills): tecnologias por área, incluindo UX/UI Design e IA no desenvolvimento
+- [Contato](https://dutrathiagodev.vercel.app/contato): e-mail, WhatsApp, LinkedIn, GitHub e Instagram
+
+## Resumo
+
+- Cargo atual: Software Engineer Intern na Fteam (desde 06/2026), referência em Flutter no Brasil. Atua na plataforma white label MRNT e nos apps Pass7 e MRNT Teen, além de QA e suporte no Together Movement.
+- Tech Lead e desenvolvedor na Lifeados Academy (desde 04/2026): FutiFC e OneTick, além de Weloz e Elos como desenvolvedor.
+- EAD da FAP (desde 09/2026): suporte à plataforma D2L, design gráfico e edição, e estudo de automação com SQL, Python e BI.
+- Stack: Flutter, Dart, React, Next.js, TypeScript, Node.js, Supabase, Firebase, Clean Architecture, MVVM, Git Flow e CI/CD.
+- Projetos de destaque: MRNT, FutiFC, Face a Face, FAP Books (Tech Lead, Dev e QA em equipe de 6), To-Do List Detetive e OneTick.
+- Formação: Ensino Médio Técnico em Desenvolvimento de Sistemas (2023–2025), Tecnólogo em Análise e Desenvolvimento de Sistemas na Faculdade Adventista do Paraná (2026–2028) e CS50x de Harvard (em andamento).
+- Startup: criou a RiseMov com 3 colegas de TI, focada em estudos com IA e Mastery Learning.
+
+## Links
+
+- Site: https://dutrathiagodev.vercel.app
+- GitHub: https://github.com/dutrathiagodev
+- LinkedIn: https://www.linkedin.com/in/dutrathiagodev/
+- E-mail: thiagodutrasap@gmail.com

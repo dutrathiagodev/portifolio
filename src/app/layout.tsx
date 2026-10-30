@@ -54,6 +54,8 @@ export const metadata: Metadata = {
     description: siteContent.description,
   },
   robots: { index: true, follow: true },
+  // código do Google Search Console, definido na Vercel (GOOGLE_SITE_VERIFICATION)
+  verification: { google: process.env.GOOGLE_SITE_VERIFICATION },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

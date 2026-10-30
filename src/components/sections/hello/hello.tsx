@@ -33,8 +33,8 @@ export function Hello() {
                     <Image
                       src={skill!.icon!}
                       alt={skill!.name}
-                      width={26}
-                      height={26}
+                      width={34}
+                      height={34}
                     />
                   </li>
                 ))}
