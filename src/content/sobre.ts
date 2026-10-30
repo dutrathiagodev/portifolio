@@ -70,7 +70,8 @@ export const aboutContent: AboutContent = {
     {
       title: "Acelera Dev",
       mentor: "Mentor: Guilherme Pessoa",
-      description: "Comunidade dev de estudos. Ajuda com LinkedIn, GitHub e posicionamento.",
+      description:
+        "Comunidade dev de estudos. Mentoria de carreira e posicionamento profissional, para construir uma presença sólida e me destacar no mercado.",
       links: [
         {
           label: "LinkedIn do Guilherme",
