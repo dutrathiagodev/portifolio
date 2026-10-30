@@ -94,7 +94,7 @@ export const experienceContent: ExperienceContent = {
         [
           "Atuação como Tech Lead em dois projetos internos (",
           {
-            text: "FutFC",
+            text: "FutiFC",
             href: "https://apps.apple.com/br/app/futi-fc/id6758945796",
           },
           " e ",

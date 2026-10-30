@@ -54,7 +54,7 @@ Portfólio pessoal em tema escuro e minimalista, com as páginas Sobre, Experiê
 | [OneTick](https://github.com/dutrathiagodev/onetick) | Um foco essencial por dia, com histórico e sequência | Flutter, Firebase, Cubit |
 | [FAP Books](https://github.com/dutrathiagodev/fap-books) | Gestão e empréstimo de livros da biblioteca da FAP (equipe de 6, Tech Lead, Dev e QA) | Next.js, Supabase, PostgreSQL, Git Flow |
 
-Outros projetos: MRNT, FutFC, Weloz, Elos e o Big-Z (em equipe, na [RiseMov](https://github.com/RiseMov)).
+Outros projetos: MRNT, FutiFC, Weloz, Elos e o Big-Z (em equipe, na [RiseMov](https://github.com/RiseMov)).
 
 ## Tecnologias
 

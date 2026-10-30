@@ -5,7 +5,7 @@ export const projectsContent: ProjectsContent = {
     label: "PROJETOS",
     title: "Projetos",
     lead: "Apps em Flutter e sites em Next.js, entregues do zero até produção.",
-    marquee: "MRNT — FutFC — Face a Face — OneTick — FAP Books —",
+    marquee: "MRNT — FutiFC — Face a Face — OneTick — FAP Books —",
   },
   statusLabels: {
     production: "Em produção",
@@ -54,7 +54,7 @@ export const projectsContent: ProjectsContent = {
       tags: ["QA", "Testes", "Suporte", "Fteam"],
     },
     {
-      name: "FutFC",
+      name: "FutiFC",
       href: "https://apps.apple.com/br/app/futi-fc/id6758945796",
       description:
         "Gestão de ligas amadoras de futebol. Tech Lead da arquitetura em Flutter.",
